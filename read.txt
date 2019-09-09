@@ -1,0 +1,331 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Aug17 ?        00:02:20 /usr/lib/systemd/systemd --switc
+root         2     0  0 Aug17 ?        00:00:00 [kthreadd]
+root         3     2  0 Aug17 ?        00:00:09 [ksoftirqd/0]
+root         5     2  0 Aug17 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Aug17 ?        00:00:25 [migration/0]
+root         8     2  0 Aug17 ?        00:00:00 [rcu_bh]
+root         9     2  0 Aug17 ?        00:03:33 [rcu_sched]
+root        10     2  0 Aug17 ?        00:00:00 [lru-add-drain]
+root        11     2  0 Aug17 ?        00:00:01 [watchdog/0]
+root        12     2  0 Aug17 ?        00:00:01 [watchdog/1]
+root        13     2  0 Aug17 ?        00:00:25 [migration/1]
+root        14     2  0 Aug17 ?        00:00:09 [ksoftirqd/1]
+root        16     2  0 Aug17 ?        00:00:00 [kworker/1:0H]
+root        17     2  0 Aug17 ?        00:00:01 [watchdog/2]
+root        18     2  0 Aug17 ?        00:00:25 [migration/2]
+root        19     2  0 Aug17 ?        00:00:09 [ksoftirqd/2]
+root        21     2  0 Aug17 ?        00:00:00 [kworker/2:0H]
+root        22     2  0 Aug17 ?        00:00:01 [watchdog/3]
+root        23     2  0 Aug17 ?        00:00:25 [migration/3]
+root        24     2  0 Aug17 ?        00:00:10 [ksoftirqd/3]
+root        26     2  0 Aug17 ?        00:00:00 [kworker/3:0H]
+root        28     2  0 Aug17 ?        00:00:00 [kdevtmpfs]
+root        29     2  0 Aug17 ?        00:00:00 [netns]
+root        30     2  0 Aug17 ?        00:00:00 [khungtaskd]
+root        31     2  0 Aug17 ?        00:00:00 [writeback]
+root        32     2  0 Aug17 ?        00:00:00 [kintegrityd]
+root        33     2  0 Aug17 ?        00:00:00 [bioset]
+root        34     2  0 Aug17 ?        00:00:00 [bioset]
+root        35     2  0 Aug17 ?        00:00:00 [bioset]
+root        36     2  0 Aug17 ?        00:00:00 [kblockd]
+root        37     2  0 Aug17 ?        00:00:00 [md]
+root        38     2  0 Aug17 ?        00:00:00 [edac-poller]
+root        44     2  0 Aug17 ?        00:00:05 [kswapd0]
+root        45     2  0 Aug17 ?        00:00:00 [ksmd]
+root        46     2  0 Aug17 ?        00:00:02 [khugepaged]
+root        47     2  0 Aug17 ?        00:00:00 [crypto]
+root        55     2  0 Aug17 ?        00:00:00 [kthrotld]
+root        57     2  0 Aug17 ?        00:00:00 [kmpath_rdacd]
+root        58     2  0 Aug17 ?        00:00:00 [kaluad]
+root        60     2  0 Aug17 ?        00:00:00 [kpsmoused]
+root        62     2  0 Aug17 ?        00:00:00 [ipv6_addrconf]
+root        76     2  0 Aug17 ?        00:00:00 [deferwq]
+root       109     2  0 Aug17 ?        00:00:00 [kauditd]
+root       292     2  0 Aug17 ?        00:00:00 [ata_sff]
+root       299     2  0 Aug17 ?        00:00:00 [scsi_eh_0]
+root       300     2  0 Aug17 ?        00:00:00 [scsi_tmf_0]
+root       302     2  0 Aug17 ?        00:00:00 [scsi_eh_1]
+root       304     2  0 Aug17 ?        00:00:00 [scsi_tmf_1]
+root       310     2  0 Aug17 ?        00:00:00 [kworker/2:1H]
+root       312     2  0 Aug17 ?        00:00:00 [scsi_eh_2]
+root       313     2  0 Aug17 ?        00:00:00 [scsi_tmf_2]
+root       314     2  0 Aug17 ?        00:00:00 [scsi_eh_3]
+root       315     2  0 Aug17 ?        00:00:00 [scsi_tmf_3]
+root       316     2  0 Aug17 ?        00:00:00 [scsi_eh_4]
+root       317     2  0 Aug17 ?        00:00:00 [scsi_tmf_4]
+root       318     2  0 Aug17 ?        00:00:00 [scsi_eh_5]
+root       319     2  0 Aug17 ?        00:00:00 [scsi_tmf_5]
+root       320     2  0 Aug17 ?        00:00:00 [scsi_eh_6]
+root       321     2  0 Aug17 ?        00:00:00 [scsi_tmf_6]
+root       322     2  0 Aug17 ?        00:00:00 [scsi_eh_7]
+root       323     2  0 Aug17 ?        00:00:00 [scsi_tmf_7]
+root       324     2  0 Aug17 ?        00:00:00 [scsi_eh_8]
+root       325     2  0 Aug17 ?        00:00:00 [scsi_tmf_8]
+root       327     2  0 Aug17 ?        00:00:00 [scsi_eh_9]
+root       328     2  0 Aug17 ?        00:00:00 [scsi_tmf_9]
+root       329     2  0 Aug17 ?        00:00:00 [scsi_eh_10]
+root       330     2  0 Aug17 ?        00:00:00 [scsi_tmf_10]
+root       331     2  0 Aug17 ?        00:00:00 [scsi_eh_11]
+root       332     2  0 Aug17 ?        00:00:00 [scsi_tmf_11]
+root       333     2  0 Aug17 ?        00:00:00 [scsi_eh_12]
+root       334     2  0 Aug17 ?        00:00:00 [scsi_tmf_12]
+root       335     2  0 Aug17 ?        00:00:00 [scsi_eh_13]
+root       336     2  0 Aug17 ?        00:00:00 [scsi_tmf_13]
+root       337     2  0 Aug17 ?        00:00:00 [scsi_eh_14]
+root       338     2  0 Aug17 ?        00:00:00 [scsi_tmf_14]
+root       339     2  0 Aug17 ?        00:00:00 [scsi_eh_15]
+root       340     2  0 Aug17 ?        00:00:00 [scsi_tmf_15]
+root       341     2  0 Aug17 ?        00:00:00 [scsi_eh_16]
+root       342     2  0 Aug17 ?        00:00:00 [scsi_tmf_16]
+root       343     2  0 Aug17 ?        00:00:00 [scsi_eh_17]
+root       344     2  0 Aug17 ?        00:00:00 [scsi_tmf_17]
+root       345     2  0 Aug17 ?        00:00:00 [scsi_eh_18]
+root       346     2  0 Aug17 ?        00:00:00 [scsi_tmf_18]
+root       347     2  0 Aug17 ?        00:00:00 [scsi_eh_19]
+root       348     2  0 Aug17 ?        00:00:00 [scsi_tmf_19]
+root       349     2  0 Aug17 ?        00:00:00 [scsi_eh_20]
+root       350     2  0 Aug17 ?        00:00:00 [scsi_tmf_20]
+root       351     2  0 Aug17 ?        00:00:00 [scsi_eh_21]
+root       352     2  0 Aug17 ?        00:00:00 [scsi_tmf_21]
+root       353     2  0 Aug17 ?        00:00:00 [scsi_eh_22]
+root       354     2  0 Aug17 ?        00:00:00 [scsi_tmf_22]
+root       355     2  0 Aug17 ?        00:00:00 [scsi_eh_23]
+root       356     2  0 Aug17 ?        00:00:00 [scsi_tmf_23]
+root       357     2  0 Aug17 ?        00:00:00 [scsi_eh_24]
+root       358     2  0 Aug17 ?        00:00:00 [scsi_tmf_24]
+root       359     2  0 Aug17 ?        00:00:00 [scsi_eh_25]
+root       360     2  0 Aug17 ?        00:00:00 [scsi_tmf_25]
+root       361     2  0 Aug17 ?        00:00:00 [scsi_eh_26]
+root       362     2  0 Aug17 ?        00:00:00 [scsi_tmf_26]
+root       363     2  0 Aug17 ?        00:00:00 [scsi_eh_27]
+root       364     2  0 Aug17 ?        00:00:00 [scsi_tmf_27]
+root       365     2  0 Aug17 ?        00:00:00 [scsi_eh_28]
+root       366     2  0 Aug17 ?        00:00:00 [scsi_tmf_28]
+root       367     2  0 Aug17 ?        00:00:00 [scsi_eh_29]
+root       368     2  0 Aug17 ?        00:00:00 [scsi_tmf_29]
+root       369     2  0 Aug17 ?        00:00:00 [scsi_eh_30]
+root       370     2  0 Aug17 ?        00:00:00 [scsi_tmf_30]
+root       371     2  0 Aug17 ?        00:00:00 [scsi_eh_31]
+root       372     2  0 Aug17 ?        00:00:00 [scsi_tmf_31]
+root       464     2  0 Aug17 ?        00:00:00 [kdmflush]
+root       465     2  0 Aug17 ?        00:00:00 [bioset]
+root       476     2  0 Aug17 ?        00:00:00 [kdmflush]
+root       477     2  0 Aug17 ?        00:00:00 [bioset]
+root       490     2  0 Aug17 ?        00:00:00 [bioset]
+root       491     2  0 Aug17 ?        00:00:00 [xfsalloc]
+root       492     2  0 Aug17 ?        00:00:00 [xfs_mru_cache]
+root       493     2  0 Aug17 ?        00:00:00 [xfs-buf/dm-0]
+root       494     2  0 Aug17 ?        00:00:00 [xfs-data/dm-0]
+root       495     2  0 Aug17 ?        00:00:00 [xfs-conv/dm-0]
+root       496     2  0 Aug17 ?        00:00:00 [xfs-cil/dm-0]
+root       497     2  0 Aug17 ?        00:00:00 [xfs-reclaim/dm-]
+root       498     2  0 Aug17 ?        00:00:00 [xfs-log/dm-0]
+root       499     2  0 Aug17 ?        00:00:00 [xfs-eofblocks/d]
+root       500     2  0 Aug17 ?        00:02:40 [xfsaild/dm-0]
+root       501     2  0 Aug17 ?        00:00:00 [kworker/0:1H]
+root       574     1  0 Aug17 ?        00:00:10 /usr/lib/systemd/systemd-journal
+root       591     1  0 Aug17 ?        00:00:00 /usr/sbin/lvmetad -f
+root       610     1  0 Aug17 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root       633     2  0 Aug17 ?        00:00:00 [nfit]
+root       694     2  0 Aug17 ?        00:00:00 [xfs-buf/sda1]
+root       695     2  0 Aug17 ?        00:00:00 [xfs-data/sda1]
+root       697     2  0 Aug17 ?        00:00:00 [xfs-conv/sda1]
+root       698     2  0 Aug17 ?        00:00:00 [xfs-cil/sda1]
+root       699     2  0 Aug17 ?        00:00:00 [xfs-reclaim/sda]
+root       700     2  0 Aug17 ?        00:00:00 [xfs-log/sda1]
+root       701     2  0 Aug17 ?        00:00:00 [xfs-eofblocks/s]
+root       702     2  0 Aug17 ?        00:00:00 [xfsaild/sda1]
+root       704     2  0 Aug17 ?        00:00:00 [ttm_swap]
+root       705     2  0 Aug17 ?        00:00:00 [irq/16-vmwgfx]
+root       718     2  0 Aug17 ?        00:00:00 [kdmflush]
+root       719     2  0 Aug17 ?        00:00:00 [bioset]
+root       726     2  0 Aug17 ?        00:00:00 [xfs-buf/dm-2]
+root       727     2  0 Aug17 ?        00:00:00 [xfs-data/dm-2]
+root       728     2  0 Aug17 ?        00:00:00 [xfs-conv/dm-2]
+root       729     2  0 Aug17 ?        00:00:00 [xfs-cil/dm-2]
+root       730     2  0 Aug17 ?        00:00:00 [xfs-reclaim/dm-]
+root       731     2  0 Aug17 ?        00:00:00 [xfs-log/dm-2]
+root       732     2  0 Aug17 ?        00:00:00 [xfs-eofblocks/d]
+root       733     2  0 Aug17 ?        00:00:02 [xfsaild/dm-2]
+root       768     1  0 Aug17 ?        00:00:01 /sbin/auditd
+root       770   768  0 Aug17 ?        00:00:01 /sbin/audispd
+root       772   770  0 Aug17 ?        00:00:00 /usr/sbin/sedispatch
+root       774     2  0 Aug17 ?        00:00:00 [rpciod]
+root       775     2  0 Aug17 ?        00:00:00 [xprtiod]
+polkitd    792     1  5 Aug17 ?        04:08:57 /usr/lib/polkit-1/polkitd --no-d
+dbus       793     1  2 Aug17 ?        01:38:53 /usr/bin/dbus-daemon --system --
+root       798     1  0 Aug17 ?        00:00:00 /usr/sbin/alsactl -s -n 19 -c -E
+root       801     1  0 Aug17 ?        00:00:00 /usr/sbin/abrtd -d -s
+avahi      803     1  0 Aug17 ?        00:00:00 avahi-daemon: running [linux.loc
+rtkit      808     1  0 Aug17 ?        00:00:02 /usr/libexec/rtkit-daemon
+root       809     1  0 Aug17 ?        00:45:30 /usr/libexec/accounts-daemon
+root       811     1  0 Aug17 ?        00:00:01 /usr/bin/abrt-watch-log -F BUG: 
+root       812     1  0 Aug17 ?        00:00:00 /usr/bin/abrt-watch-log -F Backt
+root       814     1  0 Aug17 ?        00:00:29 /usr/sbin/irqbalance --foregroun
+root       826     1  0 Aug17 ?        00:00:06 /usr/lib/systemd/systemd-logind
+libstor+   830     1  0 Aug17 ?        00:00:01 /usr/bin/lsmd -d
+root       831     1  0 Aug17 ?        00:00:00 /usr/sbin/smartd -n -q never
+root       833     1  0 Aug17 ?        00:00:08 /sbin/rngd -f
+root       834     1  0 Aug17 ?        00:00:00 /usr/sbin/gssproxy -D
+root       838     1  0 Aug17 ?        00:00:00 /usr/bin/VGAuthService -s
+root       839     1  0 Aug17 ?        00:06:23 /usr/bin/vmtoolsd
+root       841     1  0 Aug17 ?        00:00:00 /usr/sbin/ModemManager
+avahi      846   803  0 Aug17 ?        00:00:00 avahi-daemon: chroot helper
+chrony     848     1  0 Aug17 ?        00:00:01 /usr/sbin/chronyd
+root       861     1  0 Aug17 ?        00:00:08 /bin/bash /usr/sbin/ksmtuned
+root       863     2  0 Aug17 ?        00:00:02 [kworker/3:1H]
+root       868     1  0 Aug17 ?        00:00:02 /usr/bin/python -Es /usr/sbin/fi
+root       990     2  0 Aug17 ?        00:00:01 [kworker/1:1H]
+root      1042     1  0 Aug17 ?        00:00:04 /usr/sbin/NetworkManager --no-da
+mssql     1754     1  0 Aug17 ?        00:00:04 /opt/mssql/bin/sqlservr
+root      1755     1  0 Aug17 ?        00:00:00 /usr/sbin/cupsd -f
+root      1756     1  0 Aug17 ?        00:00:45 /usr/bin/python -Es /usr/sbin/tu
+root      1759     1  0 Aug17 ?        00:00:00 /usr/sbin/sshd -D
+root      1760     1  0 Aug17 ?        00:00:22 /usr/sbin/rsyslogd -n
+root      1762     1  0 Aug17 ?        00:10:50 /usr/bin/dockerd
+root      1768     1  0 Aug17 ?        00:00:00 /usr/sbin/libvirtd
+root      1771     1  0 Aug17 ?        00:00:03 /usr/sbin/crond -n
+root      1772     1  0 Aug17 ?        00:00:00 /usr/sbin/atd -f
+root      2041  1762  0 Aug17 ?        00:12:54 docker-containerd --config /var/
+root      2082     1  0 Aug17 ?        00:00:03 /usr/libexec/postfix/master -w
+postfix   2094  2082  0 Aug17 ?        00:00:01 qmgr -l -t unix -u
+root      2096     2  0 Aug17 ?        00:00:00 [loop0]
+root      2097     2  0 Aug17 ?        00:00:00 [loop1]
+root      2100     2  0 Aug17 ?        00:00:00 [kdmflush]
+root      2104     2  0 Aug17 ?        00:00:00 [dm_bufio_cache]
+root      2107     2  0 Aug17 ?        00:00:00 [bioset]
+root      2109     2  0 Aug17 ?        00:00:00 [kcopyd]
+root      2110     2  0 Aug17 ?        00:00:00 [bioset]
+root      2111     2  0 Aug17 ?        00:00:00 [dm-thin]
+root      2112     2  0 Aug17 ?        00:00:00 [bioset]
+nobody    2167     1  0 Aug17 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/v
+root      2168  2167  0 Aug17 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/v
+mssql     2498  1754  2 Aug17 ?        01:46:13 /opt/mssql/bin/sqlservr
+root      3147     2  0 Aug17 ?        00:00:00 [dio/dm-0]
+root      3187     2  0 14:20 ?        00:00:00 [kworker/3:1]
+root      3570     2  0 14:20 ?        00:00:00 [kworker/u8:1]
+root      4011     2  0 14:21 ?        00:00:00 [kworker/2:1]
+admin     4242  9653  2 14:21 pts/0    00:00:16 ./tea --innerProcess
+root      4450     2  0 14:21 ?        00:00:00 [kworker/1:1]
+root      5021     1  0 Aug17 ?        00:00:00 /usr/sbin/gdm
+root      5036  5021  0 Aug17 tty1     00:07:59 /usr/bin/X :0 -background none -
+root      5113     1  0 Aug17 ?        00:00:00 /usr/libexec/upowerd
+root      5200     1  0 Aug17 ?        00:00:01 /usr/sbin/wpa_supplicant -u -f /
+root      5201     1  0 Aug17 ?        00:00:06 /usr/libexec/packagekitd
+colord    5285     1  0 Aug17 ?        00:00:00 /usr/libexec/colord
+root      5374  5021  0 Aug17 ?        00:00:00 gdm-session-worker [pam/gdm-pass
+admin     5387     1  0 Aug17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --
+admin     5394  5374  0 Aug17 ?        00:00:01 /usr/libexec/gnome-session-binar
+admin     5403     1  0 Aug17 ?        00:00:00 dbus-launch --sh-syntax --exit-w
+admin     5404     1  0 Aug17 ?        00:00:01 /usr/bin/dbus-daemon --fork --pr
+admin     5468     1  0 Aug17 ?        00:00:00 /usr/libexec/imsettings-daemon
+admin     5472     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfsd
+admin     5477     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/use
+admin     5573  5394  0 Aug17 ?        00:00:01 /usr/bin/ssh-agent /bin/sh -c ex
+admin     5598     1  0 Aug17 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+admin     5603  5598  0 Aug17 ?        00:00:00 /bin/dbus-daemon --config-file=/
+admin     5606     1  0 Aug17 ?        00:00:01 /usr/libexec/at-spi2-registryd -
+admin     5639  5394  0 Aug17 ?        00:26:21 /usr/bin/gnome-shell
+admin     5652     1  0 Aug17 ?        00:00:00 /usr/bin/pulseaudio --start --lo
+admin     5689  5639  0 Aug17 ?        00:00:06 ibus-daemon --xim --panel disabl
+admin     5695     1  0 Aug17 ?        00:00:00 /usr/libexec/xdg-permission-stor
+admin     5696  5689  0 Aug17 ?        00:00:00 /usr/libexec/ibus-dconf
+admin     5698     1  0 Aug17 ?        00:00:00 /usr/libexec/ibus-x11 --kill-dae
+admin     5703     1  0 Aug17 ?        00:00:00 /usr/libexec/ibus-portal
+admin     5710     1  0 Aug17 ?        00:00:00 /usr/libexec/gnome-shell-calenda
+admin     5724     1  0 Aug17 ?        00:00:00 /usr/libexec/evolution-source-re
+admin     5732     1  0 Aug17 ?        00:00:00 /usr/libexec/dconf-service
+admin     5741     1  0 Aug17 ?        00:00:00 /usr/libexec/goa-daemon
+admin     5743     1  0 Aug17 ?        00:00:01 /usr/libexec/mission-control-5
+admin     5754     1  0 Aug17 ?        00:00:05 /usr/libexec/gvfs-udisks2-volume
+admin     5759     1  0 Aug17 ?        00:00:16 /usr/libexec/goa-identity-servic
+root      5764     1  0 Aug17 ?        00:00:01 /usr/libexec/udisks2/udisksd
+admin     5812     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-mon
+admin     5817     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfs-afc-volume-mon
+admin     5823     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume
+admin     5828     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfs-goa-volume-mon
+admin     5838  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-mouse
+admin     5840  5394  0 Aug17 ?        00:00:01 /usr/libexec/gsd-power
+admin     5843  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-print-notificat
+admin     5846  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-rfkill
+admin     5848  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-screensaver-pro
+admin     5853  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-wacom
+admin     5858  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-xsettings
+admin     5861  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-sound
+admin     5862  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-sharing
+admin     5863  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-smartcard
+admin     5864  5394  0 Aug17 ?        00:18:50 /usr/libexec/gsd-account
+admin     5880  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-a11y-keyboard
+admin     5881  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+admin     5882  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-clipboard
+admin     5883  5394  0 Aug17 ?        00:01:41 /usr/libexec/gsd-color
+admin     5884  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-datetime
+admin     5886  5394  0 Aug17 ?        00:00:18 /usr/libexec/gsd-housekeeping
+admin     5888  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-keyboard
+admin     5889  5394  0 Aug17 ?        00:00:00 /usr/libexec/gsd-media-keys
+admin     5909     1  0 Aug17 ?        00:00:00 /usr/libexec/gsd-printer
+admin     5944  5394  0 Aug17 ?        00:00:11 nautilus-desktop --force
+admin     5958     1  0 Aug17 ?        00:00:04 /usr/libexec/gvfsd-trash --spawn
+admin     5982     1  0 Aug17 ?        00:00:00 /usr/libexec/evolution-calendar-
+admin     5992     1  0 Aug17 ?        00:06:07 /usr/bin/vmtoolsd -n vmusr
+admin     5993  5394  0 Aug17 ?        00:00:00 /usr/bin/seapplet
+admin     6002  5394  0 Aug17 ?        00:00:11 /usr/libexec/tracker-extract
+admin     6007  5394  0 Aug17 ?        00:00:00 /usr/libexec/tracker-miner-user-
+admin     6013  5394  0 Aug17 ?        00:00:00 /usr/libexec/tracker-miner-apps
+admin     6023     1  0 Aug17 ?        00:00:06 /usr/libexec/tracker-store
+admin     6025  5394  0 Aug17 ?        00:00:03 /usr/libexec/tracker-miner-fs
+admin     6033  5394  0 Aug17 ?        00:00:28 /usr/bin/gnome-software --gappli
+admin     6069  5394  0 Aug17 ?        00:00:00 abrt-applet
+admin     6144  5689  0 Aug17 ?        00:00:00 /usr/libexec/ibus-engine-simple
+admin     6155  5982  0 Aug17 ?        00:00:00 /usr/libexec/evolution-calendar-
+admin     6188  5982  0 Aug17 ?        00:00:00 /usr/libexec/evolution-calendar-
+admin     6189     1  0 Aug17 ?        00:00:00 /usr/libexec/evolution-addressbo
+admin     6221  6189  0 Aug17 ?        00:00:00 /usr/libexec/evolution-addressbo
+admin     6233     1  0 Aug17 ?        00:00:00 /usr/libexec/gvfsd-metadata
+admin     9638     1  0 10:15 ?        00:00:03 /usr/libexec/gnome-terminal-serv
+admin     9652  9638  0 10:15 ?        00:00:00 gnome-pty-helper
+admin     9653  9638  0 10:15 pts/0    00:00:00 bash
+root     12103     2  0 14:10 ?        00:00:00 [kworker/3:2]
+postfix  12473  2082  0 14:24 ?        00:00:00 pickup -l -t unix -u
+admin    12594  9638  0 10:17 pts/1    00:00:00 bash
+root     13144     2  0 14:25 ?        00:00:00 [kworker/0:2]
+root     13232     2  0 14:25 ?        00:00:00 [kworker/u8:2]
+root     13715     2  0 13:42 ?        00:00:00 [kworker/2:0]
+root     14069     2  0 14:11 ?        00:00:00 [kworker/u8:3]
+admin    14323     1  0 09:35 ?        00:00:00 /usr/libexec/gvfsd-network --spa
+admin    14501     1  0 09:35 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawn
+admin    14826     1  0 09:35 ?        00:00:00 /home/admin/Desktop/eclipse/ecli
+admin    14850 14826  2 09:35 ?        00:08:47 /usr/bin/java -Dosgi.requiredJav
+root     15574     1  0 13:13 ?        00:00:05 opmantek.pl webserver           
+root     15712     2  0 14:26 ?        00:00:00 [kworker/3:0]
+root     15734 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15735 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15736 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15737 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15738 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15739 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15740 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15741 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15742 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15743 15574  0 13:14 ?        00:00:00 opmantek.pl webserver           
+root     15825     2  0 14:26 ?        00:00:00 [kworker/1:0]
+root     16111  1042  0 11:04 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/li
+admin    16288     1  0 09:36 ?        00:00:00 /usr/libexec/webkit2gtk-4.0/WebK
+root     18178     2  0 13:44 ?        00:00:00 [kworker/0:1]
+root     21969     2  0 14:29 ?        00:00:00 [kworker/2:2]
+root     24319     2  0 14:30 ?        00:00:00 [kworker/0:0]
+admin    24582 14850  0 14:30 ?        00:00:01 /usr/lib/jvm/java-1.8.0-openjdk-
+mysql    26339     1  0 11:37 ?        00:00:00 /bin/sh /usr/bin/mysqld_safe --b
+mysql    26501 26339  0 11:37 ?        00:00:10 /usr/libexec/mysqld --basedir=/u
+root     26853     2  0 14:31 ?        00:00:00 [kworker/1:2]
+root     29038     2  0 14:32 ?        00:00:00 [kworker/1:3]
+admin    29086     1  1 14:32 ?        00:00:00 /usr/bin/gedit --gapplication-se
+root     29497     1  0 11:38 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache   29499 29497  0 11:38 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache   29500 29497  0 11:38 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache   29501 29497  0 11:38 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache   29502 29497  0 11:38 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+apache   29504 29497  0 11:38 ?        00:00:00 /usr/sbin/httpd -DFOREGROUND
+root     30246   861  0 14:32 ?        00:00:00 sleep 60
+admin    30317 12594  0 14:32 pts/1    00:00:00 ps -ef

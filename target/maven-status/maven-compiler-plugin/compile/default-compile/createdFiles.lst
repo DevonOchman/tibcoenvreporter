@@ -1,0 +1,11 @@
+com\logilabs\os\ProcessScanner.class
+com\logilabs\os\OSScanner.class
+com\logilabs\write\Writer.class
+com\logilabs\files\DirectoryCrawler.class
+com\logilabs\os\ProcessRef.class
+com\logilabs\main\Main$1.class
+com\logilabs\os\model\OSDetails.class
+com\logilabs\os\OSValidator.class
+com\logilabs\os\ProcessRefList.class
+com\logilabs\main\Main.class
+com\logilabs\os\ProcessScanner$1.class

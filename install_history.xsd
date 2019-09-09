@@ -1,0 +1,73 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="product">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="feature" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="name" use="optional"/>
+      <xs:attribute type="xs:string" name="version" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="feature">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="name" use="optional"/>
+          <xs:attribute type="xs:string" name="version" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="profiles">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="selectedProfileList" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="productsInitialized">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="product" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="productsSelected">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="product" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="productsAlreadyInstalled">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="product" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="install">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="profiles"/>
+        <xs:element ref="productsInitialized"/>
+        <xs:element ref="productsAlreadyInstalled" minOccurs="0"/>
+        <xs:element ref="productsSelected"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="logsDirectory" use="optional"/>
+      <xs:attribute type="xs:string" name="mode" use="optional"/>
+      <xs:attribute type="xs:string" name="tibcoHome" use="optional"/>
+      <xs:attribute type="xs:string" name="timestamp" use="optional"/>
+      <xs:attribute type="xs:string" name="version" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UniversalInstallerHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="install" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
