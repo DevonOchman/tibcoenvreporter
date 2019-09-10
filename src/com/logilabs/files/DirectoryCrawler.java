@@ -16,7 +16,7 @@ public class DirectoryCrawler {
 
 	private int maxDepth = 10;
 
-	public HashSet<File> crawl() {
+	public ArrayList<File> crawl() {
 		HashSet<File> files = new HashSet<File>();
 		File[] roots = File.listRoots();
 		for (File f : roots[0].listFiles()) {
@@ -25,7 +25,9 @@ public class DirectoryCrawler {
 			}
 			files.addAll(crawlR(f, 0));
 		}
-		return files;
+		ArrayList<File> finalList = new ArrayList<File>(files.size());
+		finalList.addAll(files);
+		return finalList;
 	}        
 
 	private HashSet<? extends File> crawlR(File f, int depth) {
@@ -111,7 +113,7 @@ public class DirectoryCrawler {
 		return targets;
 	}
 
-	public HashSet<File> reduceFor(HashSet<File> files, String regex) {
+	public HashSet<File> reduceFor(Collection<? extends File> files, String regex) {
 		HashSet<File> newFiles = new HashSet<File>();
 		for(File f : files){
 			if(f.toString().matches(regex))
