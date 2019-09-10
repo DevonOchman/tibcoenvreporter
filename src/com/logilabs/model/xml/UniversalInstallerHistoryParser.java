@@ -25,7 +25,7 @@ public class UniversalInstallerHistoryParser {
 		});
 
 		for (Product p : list) {
-			result += "Name: " + p.name + ",\tversion: " + p.version;
+			result += "Name: " + p.name + ",\t\tversion: " + p.version + ",\t\tinstall date: " + p.getDate();
 			result += "\n";
 		}
 		return result;
@@ -34,21 +34,25 @@ public class UniversalInstallerHistoryParser {
 	public static List<Product> getProductsAlreadyInstalled(UniversalInstallerHistory history) {
 		ArrayList<Product> products = new ArrayList<Product>();
 		for (Install i : history.install) {
+			String installDate = i.timestamp;
 			ProductsAlreadyInstalled pai = i.productsAlreadyInstalled;
 			if (pai != null) {
 				for (Product p : i.productsAlreadyInstalled.product) {
+					p.setDate(installDate);
 					products.add(p);
 				}
 			}
 			ProductsInitialized pi = i.productsInitialized;
 			if (pi != null) {
 				for (Product p : i.productsInitialized.product) {
+					p.setDate(installDate);
 					products.add(p);
 				}
 			}
 			ProductsSelected ps = i.productsSelected;
 			if (ps != null) {
 				for (Product p : i.productsSelected.product) {
+					p.setDate(installDate);
 					products.add(p);
 				}
 			}

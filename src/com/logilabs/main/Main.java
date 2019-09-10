@@ -30,6 +30,10 @@ public class Main {
 		dc.addTargets("tibco", ".TIBCO", ".TIBCOEnvInfo");
 		dc.addOmitRoots("proc", "sys");
 		HashSet<File> files = dc.crawl();
+		
+		System.out.println("Creating reduced path list");
+		HashSet<File> reducedFiles = dc.reduceFor(files,"/opt/*/tibco/*/*.*/");
+		
 //		Collections.sort(files, new Comparator<File>() {
 //
 //			@Override
@@ -48,6 +52,7 @@ public class Main {
 
 		ProcessScanner pc = new ProcessScanner();
 		pc.addProcessStrings("tib", "ems", "bw", "bpm", "tea", "tra", "rv");
+		pc.addUserStrings("tibco", "root");
 		processes.addAll(pc.getProcesses());
 
 		System.out.println("Writing results.");
@@ -58,6 +63,16 @@ public class Main {
 			} catch (IOException e1) {
 				System.out.println("An error occured writing OS details: " + os + " to file.");
 				e1.printStackTrace();
+			}
+			System.out.println("Wrting process list for: " + processes.size() + " results.");
+			writer.append("Tibco-like process list: \n");
+			for (String s : processes) {
+				try {
+					writer.appendLine(s);
+				} catch (IOException e) {
+					System.out.println("An error occured writing tibco process list entry " + s + " to file.");
+					e.printStackTrace();
+				}
 			}
 			System.out.println("Writing UniversalInstallerHistory details.");
 			File uih = getFileByName(files, "UniversalInstallerHistory.xml");
@@ -77,6 +92,17 @@ public class Main {
 				writer.append("Universal Installer History not found.");
 				System.out.println("Universal Installer History not found.");
 			}
+			System.out.println("Writing reduced directory list");
+			for (File f : reducedFiles) {
+				try {
+					writer.appendLine(f.getAbsoluteFile().toString());
+				} catch (IOException e) {
+					System.out.println("An error occured writing reduced tibco directory list entry: " + f.getAbsolutePath()
+							+ " to file.");
+					e.printStackTrace();
+				}
+			}
+			
 			System.out.println("Wrting directory list for: " + files.size() + " results.");
 			writer.append("TIBCO Directory List: \n");
 			for (File f : files) {
@@ -85,16 +111,6 @@ public class Main {
 				} catch (IOException e) {
 					System.out.println("An error occured writing tibco directory list entry: " + f.getAbsolutePath()
 							+ " to file.");
-					e.printStackTrace();
-				}
-			}
-			System.out.println("Wrting process list for: " + processes.size() + " results.");
-			writer.append("Tibco-like process list: \n");
-			for (String s : processes) {
-				try {
-					writer.appendLine(s);
-				} catch (IOException e) {
-					System.out.println("An error occured writing tibco process list entry " + s + " to file.");
 					e.printStackTrace();
 				}
 			}

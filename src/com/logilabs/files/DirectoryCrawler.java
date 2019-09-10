@@ -29,8 +29,6 @@ public class DirectoryCrawler {
 	}        
 
 	private HashSet<? extends File> crawlR(File f, int depth) {
-		System.out.println(depth + " " + f.getPath());
-
 		HashSet<File> files = new HashSet<File>();
 		if (isTarget(f.getName())) {
 			files.add(f);
@@ -111,6 +109,15 @@ public class DirectoryCrawler {
 
 	public HashSet<String> getTargets() {
 		return targets;
+	}
+
+	public HashSet<File> reduceFor(HashSet<File> files, String regex) {
+		HashSet<File> newFiles = new HashSet<File>();
+		for(File f : files){
+			if(f.toString().matches(regex))
+				newFiles.add(f);
+		}
+		return newFiles;
 	}
 
 }

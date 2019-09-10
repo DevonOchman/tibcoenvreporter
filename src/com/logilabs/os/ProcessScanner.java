@@ -14,6 +14,8 @@ public class ProcessScanner {
 
 	private List<String> processStrings = new ArrayList<String>();
 
+	private List<String> users = new ArrayList<String>();
+
 	public List<String> getProcesses() {
 		List<String> processes = new ArrayList<String>();
 		String command = "";
@@ -29,13 +31,13 @@ public class ProcessScanner {
 			e.printStackTrace();
 		}
 		BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-//		BufferedReader reader = null;
-//		try {
-//			reader = new BufferedReader(new FileReader("read.txt"));
-//		} catch (FileNotFoundException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
+		// BufferedReader reader = null;
+		// try {
+		// reader = new BufferedReader(new FileReader("read.txt"));
+		// } catch (FileNotFoundException e1) {
+		// // TODO Auto-generated catch block
+		// e1.printStackTrace();
+		// }
 		String line;
 		try {
 			if (OSValidator.isWindows()) {
@@ -63,6 +65,7 @@ public class ProcessScanner {
 					}
 				});
 				prs.filterAgainst(processStrings);
+				prs.filterAgainstUser(users);
 				processes = prs.printCommands();
 			}
 
@@ -78,6 +81,11 @@ public class ProcessScanner {
 			processStrings.add(t);
 		}
 	}
+	public void addUserStrings(String... target) {
+		for (String t : target) {
+			users.add(t);
+		}
+	}
 }
 
 class ProcessRefList {
@@ -85,10 +93,20 @@ class ProcessRefList {
 		return prs;
 	}
 
+	public void filterAgainstUser(List<String> users) {
+		List<ProcessRef> newPrs = new ArrayList<ProcessRef>();
+		for (ProcessRef pr : prs) {
+			if (pr.hasUserLike(users)) {
+				newPrs.add(pr);
+			}
+		}
+		prs = newPrs;
+	}
+
 	public void filterAgainst(List<String> processStrings) {
 		List<ProcessRef> newPrs = new ArrayList<ProcessRef>();
-		for(ProcessRef pr: prs){
-			if(pr.hasCommandLike(processStrings)){
+		for (ProcessRef pr : prs) {
+			if (pr.hasCommandLike(processStrings)) {
 				newPrs.add(pr);
 			}
 		}
@@ -100,7 +118,7 @@ class ProcessRefList {
 	public void addProcessRef(ProcessRef pr) {
 		if (containsUser(pr.getUser())) {
 			getProcessRefForUser(pr.getUser()).addCommand(pr.getCommands());
-		}else{
+		} else {
 			prs.add(pr);
 		}
 	}
@@ -140,10 +158,20 @@ class ProcessRef implements Comparable<ProcessRef> {
 		return user;
 	}
 
+	public boolean hasUserLike(List<String> users) {
+
+		for (String u : users) {
+			if (user.equalsIgnoreCase(u))
+				return true;
+		}
+
+		return false;
+	}
+
 	public boolean hasCommandLike(List<String> processStrings) {
-		for(String s : command){
-			for(String ps: processStrings){
-				if(s.contains(ps))
+		for (String s : command) {
+			for (String ps : processStrings) {
+				if (s.contains(ps))
 					return true;
 			}
 		}

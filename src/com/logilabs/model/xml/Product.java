@@ -54,8 +54,18 @@ public class Product {
     protected String name;
     @XmlAttribute(name = "version")
     protected String version;
+    
+    private String date;
 
-    /**
+    public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	/**
      * Gets the value of the content property.
      * 
      * <p>
