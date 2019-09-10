@@ -12,12 +12,12 @@ public class DirectoryCrawler {
 	
 	private HashSet<String> omitRoots =  new HashSet<String>();
 
-	private int peekDepth = 3;
+	private int peekDepth = 2;
 
 	private int maxDepth = 10;
 
-	public List<File> crawl() {
-		List<File> files = new ArrayList<File>();
+	public HashSet<File> crawl() {
+		HashSet<File> files = new HashSet<File>();
 		File[] roots = File.listRoots();
 		for (File f : roots[0].listFiles()) {
 			if(isToOmit(f.getName())){
@@ -28,10 +28,10 @@ public class DirectoryCrawler {
 		return files;
 	}        
 
-	private Collection<? extends File> crawlR(File f, int depth) {
+	private HashSet<? extends File> crawlR(File f, int depth) {
 		System.out.println(depth + " " + f.getPath());
 
-		List<File> files = new ArrayList<File>();
+		HashSet<File> files = new HashSet<File>();
 		if (isTarget(f.getName())) {
 			files.add(f);
 			files.addAll(crawlH(f, 0));
@@ -48,8 +48,8 @@ public class DirectoryCrawler {
 		return files;
 	}
 
-	private Collection<? extends File> crawlH(File f, int depth) {
-		List<File> files = new ArrayList<File>();
+	private HashSet<? extends File> crawlH(File f, int depth) {
+		HashSet<File> files = new HashSet<File>();
 		File[] subF = f.listFiles();
 		if (subF == null)
 			return files;

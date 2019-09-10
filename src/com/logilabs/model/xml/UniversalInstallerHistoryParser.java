@@ -10,7 +10,7 @@ public class UniversalInstallerHistoryParser {
 	public static String getInstalledProductList(UniversalInstallerHistory history) {
 		String result = "";
 		List<Product> list = getProductsAlreadyInstalled(history);
-		list = removeDuplicates(list);
+//		list = removeDuplicates(list);
 		Collections.sort(list, new Comparator<Product>() {
 
 			@Override

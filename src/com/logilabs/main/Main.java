@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 
 import com.logilabs.files.DirectoryCrawler;
@@ -28,20 +29,20 @@ public class Main {
 		DirectoryCrawler dc = new DirectoryCrawler();
 		dc.addTargets("tibco", ".TIBCO", ".TIBCOEnvInfo");
 		dc.addOmitRoots("proc", "sys");
-		List<File> files = dc.crawl();
-		Collections.sort(files, new Comparator<File>() {
-
-			@Override
-			public int compare(File o1, File o2) {
-				String one = o1.getAbsolutePath();
-				String two = o2.getAbsolutePath();
-				if (one == null)
-					return -1;
-				if (two == null)
-					return 1;
-				return one.compareTo(two);
-			}
-		});
+		HashSet<File> files = dc.crawl();
+//		Collections.sort(files, new Comparator<File>() {
+//
+//			@Override
+//			public int compare(File o1, File o2) {
+//				String one = o1.getAbsolutePath();
+//				String two = o2.getAbsolutePath();
+//				if (one == null)
+//					return -1;
+//				if (two == null)
+//					return 1;
+//				return one.compareTo(two);
+//			}
+//		});
 		System.out.println("Reading active processes.");
 		List<String> processes = new ArrayList<String>();
 
@@ -105,7 +106,7 @@ public class Main {
 		System.out.println("Done. Goodbye.");
 	}
 
-	private static File getFileByName(List<File> files, String string) {
+	private static File getFileByName(HashSet<File> files, String string) {
 		for (File f : files) {
 			if (f.getName().equalsIgnoreCase(string)) {
 				return f;
