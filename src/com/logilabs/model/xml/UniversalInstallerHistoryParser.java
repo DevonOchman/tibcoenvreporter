@@ -9,51 +9,48 @@ public class UniversalInstallerHistoryParser {
 
 	public static String getInstalledProductList(UniversalInstallerHistory history) {
 		String result = "";
-		List<Product> list = getProductsAlreadyInstalled(history);
+		List<lProduct> list = getProductsAlreadyInstalled(history);
 //		list = removeDuplicates(list);
-		Collections.sort(list, new Comparator<Product>() {
+		Collections.sort(list, new Comparator<lProduct>() {
 
 			@Override
-			public int compare(Product o1, Product o2) {
-				if (o1.name.equals(o2.name))
-					return o1.version.compareTo(o2.version);
+			public int compare(lProduct o1, lProduct o2) {
+				if (o1.getName().equals(o2.getName()))
+					return o1.getVersion().compareTo(o2.getVersion());
 				else {
-					return o1.name.compareTo(o2.name);
+					return o1.getName().compareTo(o2.getName());
 				}
 			}
 
 		});
 
-		for (Product p : list) {
-			result += "Name: " + p.name + ",\t\tversion: " + p.version + ",\t\tinstall date: " + p.getDate();
+		for (lProduct p : list) {
+			result += "Name: " + p.getName() + ",\t\tversion: " + p.getVersion() + ",\t\tinstall date: " + p.getDate();
 			result += "\n";
 		}
 		return result;
 	}
 
-	public static List<Product> getProductsAlreadyInstalled(UniversalInstallerHistory history) {
-		ArrayList<Product> products = new ArrayList<Product>();
+	public static List<lProduct> getProductsAlreadyInstalled(UniversalInstallerHistory history) {
+		ArrayList<lProduct> products = new ArrayList<lProduct>();
 		for (Install i : history.install) {
 			String installDate = i.timestamp;
 			ProductsAlreadyInstalled pai = i.productsAlreadyInstalled;
 			if (pai != null) {
 				for (Product p : i.productsAlreadyInstalled.product) {
-					p.setDate(installDate);
-					products.add(p);
+					products.add(new lProduct(p.getName(), p.getVersion(), installDate));
 				}
 			}
 			ProductsInitialized pi = i.productsInitialized;
 			if (pi != null) {
 				for (Product p : i.productsInitialized.product) {
-					p.setDate(installDate);
-					products.add(p);
+					products.add(new lProduct(p.getName(), p.getVersion(), installDate));
 				}
 			}
 			ProductsSelected ps = i.productsSelected;
 			if (ps != null) {
 				for (Product p : i.productsSelected.product) {
-					p.setDate(installDate);
-					products.add(p);
+					products.add(new lProduct(p.getName(), p.getVersion(), installDate));
 				}
 			}
 		}
@@ -77,4 +74,35 @@ public class UniversalInstallerHistoryParser {
 		}
 		return false;
 	}
+}
+
+class lProduct{
+	public lProduct(String name, String version, String date) {
+		super();
+		this.name = name;
+		this.version = version;
+		this.date = date;
+	}
+	private String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getVersion() {
+		return version;
+	}
+	public void setVersion(String version) {
+		this.version = version;
+	}
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	private String version;
+	private String date;
+	
 }
