@@ -23,6 +23,7 @@ public class DirectoryCrawler {
 			System.out.println(f);
 		}
 		System.out.println("end subroot files");
+		
 		for (File f : roots) {
 			files.addAll(crawlR(f, 0));
 		}
