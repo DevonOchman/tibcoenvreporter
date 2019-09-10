@@ -67,6 +67,7 @@ public class DirectoryCrawler {
 	}
 
 	private boolean isTarget(String test) {
+		System.out.println("TESTING:  " + test);
 		if (test == null)
 			return false;
 		if (test.length() == 0)
