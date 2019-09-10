@@ -24,7 +24,7 @@ public class DirectoryCrawler {
 	}
 
 	private Collection<? extends File> crawlR(File f, int depth) {
-		System.out.println(depth + " " + f.getAbsolutePath());
+		System.out.println(depth + " " + f.getPath());
 		List<File> files = new ArrayList<File>();
 		String s = f.getName();
 		if (isTarget(f.getName())) {
