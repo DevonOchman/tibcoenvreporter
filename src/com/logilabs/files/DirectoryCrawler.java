@@ -19,11 +19,11 @@ public class DirectoryCrawler {
 		File[] roots = File.listRoots();
 		File[] subRoots = roots[0].listFiles();
 		System.out.println("begin subroot files");
-		for(File f : subRoots){
+		for (File f : subRoots) {
 			System.out.println(f);
 		}
 		System.out.println("end subroot files");
-		
+
 		for (File f : roots) {
 			files.addAll(crawlR(f, 0));
 		}
@@ -44,7 +44,7 @@ public class DirectoryCrawler {
 			return files;
 		}
 		for (File sf : subF) {
-			files.addAll(crawlR(sf, ++depth));
+			files.addAll(crawlR(sf, depth + 1));
 		}
 
 		return files;
@@ -58,7 +58,7 @@ public class DirectoryCrawler {
 		for (File sf : subF) {
 			files.add(sf);
 			if (depth < peekDepth) {
-				files.addAll(crawlH(sf, ++depth));
+				files.addAll(crawlH(sf, depth + 1));
 			}
 		}
 
@@ -67,13 +67,14 @@ public class DirectoryCrawler {
 	}
 
 	private boolean isTarget(String test) {
-		System.out.println("TESTING:  " + test);
 		if (test == null)
 			return false;
 		if (test.length() == 0)
 			return false;
 		for (String s : targets) {
 			if (s.equalsIgnoreCase(test))
+				return true;
+			else if (test.toLowerCase().contains(s.toLowerCase()))
 				return true;
 		}
 		return false;
