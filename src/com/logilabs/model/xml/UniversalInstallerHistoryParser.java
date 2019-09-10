@@ -1,6 +1,7 @@
 package com.logilabs.model.xml;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -10,7 +11,7 @@ public class UniversalInstallerHistoryParser {
 		String result = "";
 		List<Product> list = getProductsAlreadyInstalled(history);
 		list = removeDuplicates(list);
-		list.sort(new Comparator<Product>() {
+		Collections.sort(list, new Comparator<Product>() {
 
 			@Override
 			public int compare(Product o1, Product o2) {
