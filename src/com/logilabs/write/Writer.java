@@ -41,4 +41,8 @@ public class Writer {
 		}
 	}
 
+	public String getReportPath() {
+		return this.outputFile.getPath();
+	}
+
 }

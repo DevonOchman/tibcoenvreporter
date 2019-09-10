@@ -17,17 +17,10 @@ import com.logilabs.model.xml.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// UniversalInstallerHistory oo = (UniversalInstallerHistory)
-		// XMLIntake.readXMLFromFileForClass(
-		// UniversalInstallerHistory.class,
-		// "C:\\Users\\DevonOchman\\.TIBCO\\UniversalInstallerHistory.xml");
-		// int i = 0;
-		// String ss =
-		// UniversalInstallerHistoryParser.getInstalledProductList(oo);
-		// i++;
 
 		System.out.println("Initializing writer.");
 		Writer writer = new Writer("report.txt");
+		System.out.println("Report file path: " + writer.getReportPath());
 
 		System.out.println("Reading file system.");
 		OSDetails os = OSScanner.report();
