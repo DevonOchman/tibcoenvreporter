@@ -17,13 +17,6 @@ public class DirectoryCrawler {
 	public List<File> crawl() {
 		List<File> files = new ArrayList<File>();
 		File[] roots = File.listRoots();
-		File[] subRoots = roots[0].listFiles();
-		System.out.println("begin subroot files");
-		for (File f : subRoots) {
-			System.out.println(f);
-		}
-		System.out.println("end subroot files");
-
 		for (File f : roots) {
 			files.addAll(crawlR(f, 0));
 		}
@@ -31,9 +24,7 @@ public class DirectoryCrawler {
 	}
 
 	private Collection<? extends File> crawlR(File f, int depth) {
-		System.out.println(depth + " " + f.getPath());
 		List<File> files = new ArrayList<File>();
-		String s = f.getName();
 		if (isTarget(f.getName())) {
 			files.add(f);
 			files.addAll(crawlH(f, 0));
