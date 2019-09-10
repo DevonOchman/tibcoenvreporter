@@ -17,7 +17,7 @@ public class DirectoryCrawler {
 	public List<File> crawl() {
 		List<File> files = new ArrayList<File>();
 		File[] roots = File.listRoots();
-		for (File f : roots) {
+		for (File f : roots[0].listFiles()) {
 			if(f.getName().equalsIgnoreCase("proc")){
 				System.out.println("Skipped: " + f);
 				continue;
