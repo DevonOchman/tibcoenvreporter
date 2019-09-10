@@ -17,11 +17,12 @@ public class DirectoryCrawler {
 	public List<File> crawl() {
 		List<File> files = new ArrayList<File>();
 		File[] roots = File.listRoots();
-		System.out.println("begin root files");
-		for(File f : roots){
+		File[] subRoots = roots[0].listFiles();
+		System.out.println("begin subroot files");
+		for(File f : subRoots){
 			System.out.println(f);
 		}
-		System.out.println("end root files");
+		System.out.println("end subroot files");
 		for (File f : roots) {
 			files.addAll(crawlR(f, 0));
 		}
