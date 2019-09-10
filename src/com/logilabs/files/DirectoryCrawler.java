@@ -21,7 +21,7 @@ public class DirectoryCrawler {
 			files.addAll(crawlR(f, 0));
 		}
 		return files;
-	}
+	}        
 
 	private Collection<? extends File> crawlR(File f, int depth) {
 		List<File> files = new ArrayList<File>();
