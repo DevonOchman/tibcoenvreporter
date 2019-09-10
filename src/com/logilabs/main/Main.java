@@ -53,31 +53,60 @@ public class Main {
 		processes.addAll(pc.getProcesses());
 
 		System.out.println("Writing results.");
+		
 		System.out.println("Writing UniversalInstallerHistory details.");
-		File uih = dc.getFileByName("UniversalInstallerHistory.xml");
+		File uih = getFileByName(files, "UniversalInstallerHistory.xml");
+		UniversalInstallerHistory oo = (UniversalInstallerHistory) XMLIntake.readXMLFromFileForClass(
+				UniversalInstallerHistory.class, uih);
 		try {
-			writer.append(os.toString());
-		} catch (IOException e1) {
-			System.out.println("An error occured writing OS details: " + os + " to file.");
-			e1.printStackTrace();
-		}
-		for (File f : files) {
+			
+			writer.append("OS Details: \n");
 			try {
-				writer.appendLine(f.getAbsoluteFile().toString());
-			} catch (IOException e) {
-				System.out.println(
-						"An error occured writing tibco directory list entry: " + f.getAbsolutePath() + " to file.");
-				e.printStackTrace();
+				writer.append(os.toString());
+			} catch (IOException e1) {
+				System.out.println("An error occured writing OS details: " + os + " to file.");
+				e1.printStackTrace();
 			}
-		}
-		for (String s : processes) {
+			writer.append("Universal Installer History: \n");
 			try {
-				writer.appendLine(s);
-			} catch (IOException e) {
-				System.out.println("An error occured writing tibco process list entry " + s + " to file.");
-				e.printStackTrace();
+				writer.append(UniversalInstallerHistoryParser.getInstalledProductList(oo));
+			} catch (IOException e2) {
+				System.out.println("An error occured writing UniversalInstallerHistory.xml details: " + oo + " to file.");
+				e2.printStackTrace();
 			}
+			writer.append("TIBCO Directory List: \n");
+			for (File f : files) {
+				try {
+					writer.appendLine(f.getAbsoluteFile().toString());
+				} catch (IOException e) {
+					System.out.println(
+							"An error occured writing tibco directory list entry: " + f.getAbsolutePath() + " to file.");
+					e.printStackTrace();
+				}
+			}
+			writer.append("Tibco-like process list: \n");
+			for (String s : processes) {
+				try {
+					writer.appendLine(s);
+				} catch (IOException e) {
+					System.out.println("An error occured writing tibco process list entry " + s + " to file.");
+					e.printStackTrace();
+				}
+			}
+		} catch (IOException e3) {
+			System.out.println("An error occured writing report details.");
+			e3.printStackTrace();
 		}
+		
 		System.out.println("Done. Goodbye.");
+	}
+
+	private static File getFileByName(List<File> files, String string) {
+		for(File f : files){
+			if(f.getName().equalsIgnoreCase(string)){
+				return f;
+			}
+		}
+		return null;
 	}
 }

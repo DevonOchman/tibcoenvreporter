@@ -17,7 +17,9 @@ import javax.xml.bind.Unmarshaller;
 
 public class XMLIntake {
 	
-	
+	public static <T> Object readXMLFromFileForClass(Class<T> class1, File uih) {
+		return readXMLFromFileForClass(class1, uih.getAbsolutePath());
+	}
 	@SuppressWarnings("unchecked")
 	public static <T> Object readXMLFromFileForClass(Class<T> target, String fileUri) {
 		String xml = "";
@@ -52,5 +54,7 @@ public class XMLIntake {
 
         return new String(data, "UTF-8");
 	}
+
+	
 
 }
