@@ -92,7 +92,8 @@ public class Main {
 				writer.append("Universal Installer History not found.");
 				System.out.println("Universal Installer History not found.");
 			}
-			System.out.println("Writing reduced directory list");
+			System.out.println("Writing reduced directory list for " + reducedFiles.size() + " files.");
+			writer.append("Reduced directory list:");
 			for (File f : reducedFiles) {
 				try {
 					writer.appendLine(f.getAbsoluteFile().toString());
