@@ -18,6 +18,10 @@ public class DirectoryCrawler {
 		List<File> files = new ArrayList<File>();
 		File[] roots = File.listRoots();
 		for (File f : roots) {
+			if(f.getName().equalsIgnoreCase("proc")){
+				System.out.println("Skipped: " + f);
+				continue;
+			}
 			files.addAll(crawlR(f, 0));
 		}
 		return files;
