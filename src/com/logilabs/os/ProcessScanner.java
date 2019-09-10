@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -55,7 +56,7 @@ public class ProcessScanner {
 					String cmd = line.substring(width);
 					prs.addProcessRef(new ProcessRef(user, cmd));
 				}
-				prs.getPrs().sort(new Comparator<ProcessRef>() {
+				Collections.sort(prs.getPrs(), new Comparator<ProcessRef>() {
 					@Override
 					public int compare(ProcessRef arg0, ProcessRef arg1) {
 						return arg0.compareTo(arg1);
