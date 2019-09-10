@@ -25,7 +25,11 @@ public class XMLIntake {
 		String xml = "";
 		try {
 			xml = fetchFileContent(fileUri);
-		} catch (URISyntaxException | IOException e) {
+		} catch (URISyntaxException  e) {
+			System.out.println("An error occured reading data from: " + fileUri);
+			e.printStackTrace();
+			return null;
+		} catch( IOException e){
 			System.out.println("An error occured reading data from: " + fileUri);
 			e.printStackTrace();
 			return null;
