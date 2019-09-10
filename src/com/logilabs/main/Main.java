@@ -53,7 +53,7 @@ public class Main {
 		try {
 			writer.append("OS Details: \n");
 			try {
-				writer.append(os.toString());
+				writer.append(os.toString() + "\n");
 			} catch (IOException e1) {
 				System.out.println("An error occured writing OS details: " + os + " to file.");
 				e1.printStackTrace();
@@ -72,10 +72,11 @@ public class Main {
 							"An error occured writing UniversalInstallerHistory.xml details: " + oo + " to file.");
 					e2.printStackTrace();
 				}
-			}else{
+			} else {
 				writer.append("Universal Installer History not found.");
 				System.out.println("Universal Installer History not found.");
 			}
+			System.out.println("Wrting directory list for: " + files.size() + " results.");
 			writer.append("TIBCO Directory List: \n");
 			for (File f : files) {
 				try {
@@ -86,6 +87,7 @@ public class Main {
 					e.printStackTrace();
 				}
 			}
+			System.out.println("Wrting process list for: " + processes.size() + " results.");
 			writer.append("Tibco-like process list: \n");
 			for (String s : processes) {
 				try {
