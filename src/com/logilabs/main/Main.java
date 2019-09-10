@@ -3,6 +3,7 @@ package com.logilabs.main;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class Main {
 		dc.addTargets("tibco", ".TIBCO", ".TIBCOEnvInfo");
 
 		List<File> files = dc.crawl();
-		files.sort(new Comparator<File>() {
+		Collections.sort(files, new Comparator<File>() {
 
 			@Override
 			public int compare(File o1, File o2) {
