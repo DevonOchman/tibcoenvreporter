@@ -27,7 +27,7 @@ public class Main {
 
 		DirectoryCrawler dc = new DirectoryCrawler();
 		dc.addTargets("tibco", ".TIBCO", ".TIBCOEnvInfo");
-
+		dc.addOmitRoots("proc", "sys");
 		List<File> files = dc.crawl();
 		Collections.sort(files, new Comparator<File>() {
 

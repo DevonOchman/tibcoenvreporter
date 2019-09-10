@@ -9,6 +9,8 @@ import java.util.List;
 public class DirectoryCrawler {
 
 	private HashSet<String> targets = new HashSet<String>();
+	
+	private HashSet<String> omitRoots =  new HashSet<String>();
 
 	private int peekDepth = 3;
 
@@ -18,8 +20,7 @@ public class DirectoryCrawler {
 		List<File> files = new ArrayList<File>();
 		File[] roots = File.listRoots();
 		for (File f : roots[0].listFiles()) {
-			if(f.getName().equalsIgnoreCase("proc")){
-				System.out.println("Skipped: " + f);
+			if(isToOmit(f.getName())){
 				continue;
 			}
 			files.addAll(crawlR(f, 0));
@@ -76,10 +77,27 @@ public class DirectoryCrawler {
 		}
 		return false;
 	}
+	
+	private boolean isToOmit(String test){
+		if(test == null)
+			return false;
+		if(test.length() == 0)
+			return false;
+		for(String s : omitRoots){
+			if(s.equalsIgnoreCase(test))
+				return true;	
+		}
+		return false;
+	}
 
 	public void addTargets(String... target) {
 		for (String t : target) {
 			targets.add(t);
+		}
+	}
+	public void addOmitRoots(String... target) {
+		for (String t : target) {
+			omitRoots.add(t);
 		}
 	}
 
