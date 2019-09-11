@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("Report file path: " + writer.getReportPath());
 
 		System.out.println("Reading file system.");
-		OSDetails os = OSScanner.report();
+		String os = OSScanner.report();
 
 		DirectoryCrawler dc = new DirectoryCrawler();
 		dc.addTargets("tibco", ".TIBCO", ".TIBCOEnvInfo");
