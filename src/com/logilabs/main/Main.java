@@ -33,7 +33,7 @@ public class Main {
 		ArrayList<File> files = dc.crawl();
 		
 		System.out.println("Creating reduced path list");
-		HashSet<File> reducedFiles = dc.reduceFor(files,"/opt/*/tibco/*/*.*/");
+		HashSet<File> reducedFiles = dc.reduceFor(files,"/opt/.*tibco/([a-z]|[A-Z])*/[0-9]\\.[0-9]");
 		
 		Collections.sort(files, new Comparator<File>() {
 
