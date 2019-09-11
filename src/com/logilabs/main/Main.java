@@ -75,6 +75,18 @@ public class Main {
 					e.printStackTrace();
 				}
 			}
+			System.out.println("Writing reduced directory list for " + reducedFiles.size() + " files.");
+			writer.append("Reduced directory list:");
+			for (File f : reducedFiles) {
+				try {
+					writer.appendLine(f.getAbsoluteFile().toString());
+				} catch (IOException e) {
+					System.out.println("An error occured writing reduced tibco directory list entry: " + f.getAbsolutePath()
+							+ " to file.");
+					e.printStackTrace();
+				}
+			}
+			writer.append("\n\n");
 			writer.append("\n\n");
 			System.out.println("Writing UniversalInstallerHistory details.");
 			File uih = getFileByName(files, "UniversalInstallerHistory.xml");
@@ -95,18 +107,7 @@ public class Main {
 				System.out.println("Universal Installer History not found.");
 			}
 			writer.append("\n\n");
-			System.out.println("Writing reduced directory list for " + reducedFiles.size() + " files.");
-			writer.append("Reduced directory list:");
-			for (File f : reducedFiles) {
-				try {
-					writer.appendLine(f.getAbsoluteFile().toString());
-				} catch (IOException e) {
-					System.out.println("An error occured writing reduced tibco directory list entry: " + f.getAbsolutePath()
-							+ " to file.");
-					e.printStackTrace();
-				}
-			}
-			writer.append("\n\n");
+
 			System.out.println("Wrting directory list for: " + files.size() + " results.");
 			writer.append("TIBCO Directory List: \n");
 			for (File f : files) {
