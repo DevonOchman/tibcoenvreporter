@@ -10,7 +10,7 @@ public class UniversalInstallerHistoryParser {
 	public static String getInstalledProductList(UniversalInstallerHistory history) {
 		String result = "";
 		List<lProduct> list = getProductsAlreadyInstalled(history);
-//		list = removeDuplicates(list);
+		list = removeDuplicates(list);
 		Collections.sort(list, new Comparator<lProduct>() {
 
 			@Override
@@ -57,9 +57,9 @@ public class UniversalInstallerHistoryParser {
 		return products;
 	}
 
-	private static List<Product> removeDuplicates(List<Product> list) {
-		List<Product> newList = new ArrayList<Product>();
-		for (Product p : list) {
+	private static List<lProduct> removeDuplicates(List<lProduct> list) {
+		List<lProduct> newList = new ArrayList<lProduct>();
+		for (lProduct p : list) {
 			if(!containsProduct(newList, p)) {
 				newList.add(p);
 			}
@@ -67,9 +67,9 @@ public class UniversalInstallerHistoryParser {
 		return newList;
 	}
 
-	private static boolean containsProduct(List<Product> list, Product product) {
-		for (Product p : list) {
-			if (p.getName().equals(product.getName()) && p.getVersion().equals(product.getVersion()))
+	private static boolean containsProduct(List<lProduct> list, lProduct product) {
+		for (lProduct p : list) {
+			if (p.getName().equals(product.getName()) && p.getVersion().equals(product.getVersion()) && p.getDate().equals(product.getDate()))
 				return true;
 		}
 		return false;

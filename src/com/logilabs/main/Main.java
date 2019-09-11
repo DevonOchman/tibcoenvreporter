@@ -53,14 +53,14 @@ public class Main {
 
 		ProcessScanner pc = new ProcessScanner();
 		pc.addProcessStrings("tib", "ems", "bw", "bpm", "tea", "tra", "rv");
-		pc.addUserStrings("tibco", "root");
+		pc.addUserStrings("tibco");
 		processes.addAll(pc.getProcesses());
 
 		System.out.println("Writing results.");
 		try {
 			writer.append("OS Details: \n");
 			try {
-				writer.append(os.toString() + "\n");
+				writer.append(os.toString() + "\n\n");
 			} catch (IOException e1) {
 				System.out.println("An error occured writing OS details: " + os + " to file.");
 				e1.printStackTrace();
@@ -75,6 +75,7 @@ public class Main {
 					e.printStackTrace();
 				}
 			}
+			writer.append("\n\n");
 			System.out.println("Writing UniversalInstallerHistory details.");
 			File uih = getFileByName(files, "UniversalInstallerHistory.xml");
 			if (uih != null) {
@@ -93,6 +94,7 @@ public class Main {
 				writer.append("Universal Installer History not found.");
 				System.out.println("Universal Installer History not found.");
 			}
+			writer.append("\n\n");
 			System.out.println("Writing reduced directory list for " + reducedFiles.size() + " files.");
 			writer.append("Reduced directory list:");
 			for (File f : reducedFiles) {
@@ -104,7 +106,7 @@ public class Main {
 					e.printStackTrace();
 				}
 			}
-			
+			writer.append("\n\n");
 			System.out.println("Wrting directory list for: " + files.size() + " results.");
 			writer.append("TIBCO Directory List: \n");
 			for (File f : files) {

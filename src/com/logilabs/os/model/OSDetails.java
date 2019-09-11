@@ -16,7 +16,7 @@ public class OSDetails {
 	public String toString(){
 		String ret = "";
 		ret += "Hostname:\t\t" + hostname;
-		ret += "\nIP:\t\t\t" + ip;
+		ret += "\nIP:\t\t\t\t" + ip;
 		ret += "\nNum cores:\t\t" + cores;
 
 		return ret;
