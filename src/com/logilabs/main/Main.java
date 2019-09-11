@@ -75,6 +75,7 @@ public class Main {
 					e.printStackTrace();
 				}
 			}
+			writer.append("\n\n");
 			System.out.println("Writing reduced directory list for " + reducedFiles.size() + " files.");
 			writer.append("Reduced directory list:");
 			for (File f : reducedFiles) {
@@ -86,7 +87,6 @@ public class Main {
 					e.printStackTrace();
 				}
 			}
-			writer.append("\n\n");
 			writer.append("\n\n");
 			System.out.println("Writing UniversalInstallerHistory details.");
 			File uih = getFileByName(files, "UniversalInstallerHistory.xml");
