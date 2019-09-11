@@ -16,6 +16,7 @@ public class Main {
 
 		CommandExecutor cme = new CommandExecutor();
 		cme.addCommands("ps");
+//		cme.addCommands("wget ftp://toolsadm/tibco/scripts/audit/TibcoEnvReporter*.jar");
 		cme.executeCommands(user, pwd, host, port);
 	}
 
