@@ -31,13 +31,7 @@ public class ProcessScanner {
 			e.printStackTrace();
 		}
 		BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-		// BufferedReader reader = null;
-		// try {
-		// reader = new BufferedReader(new FileReader("read.txt"));
-		// } catch (FileNotFoundException e1) {
-		// // TODO Auto-generated catch block
-		// e1.printStackTrace();
-		// }
+
 		String line;
 		try {
 			if (OSValidator.isWindows()) {
@@ -52,7 +46,6 @@ public class ProcessScanner {
 				ProcessRefList prs = new ProcessRefList();
 				line = reader.readLine();
 				int width = line.indexOf(" TIME ") + " TIME ".length();
-				width++;
 				while ((line = reader.readLine()) != null) {
 					String user = line.split(" ")[0];
 					String cmd = line.substring(width);
