@@ -50,6 +50,7 @@ public class HostManager {
 			}finally {
 				session.disconnect();
 			}
+			System.out.println("Seesion and connection OK for host: " + h.hostName);
 		}
 		
 	}
