@@ -45,7 +45,8 @@ public class Main {
 				"java -jar TibcoEnvReporter-0.0.1.jar",
 				"echo y | mv report.txt /tmp/report.txt",
 				"chown " + user + " /tmp/report.txt",
-				"rm -f TibcoEnvReporter-0.0.1.jar"};
+//				"rm -f TibcoEnvReporter-0.0.1.jar"
+				};
 
 //		hostnames = new ArrayList<String>();
 //		hostnames.add(host);
