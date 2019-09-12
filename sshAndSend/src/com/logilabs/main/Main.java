@@ -36,7 +36,7 @@ public class Main {
 
 		String[] commands = { 
 //				"sudo su - tibco", 
-				"ls",
+				"touch me.txt",
 				"wget ftp://toolsadm/tibco/scripts/audit/TibcoEnvReporter-0.0.1.jar",
 //				"chmod +x TibcoEnvReporter-0.0.1.jar",
 //				"java -jar TibcoEnvReporter-0.0.1.jar",
