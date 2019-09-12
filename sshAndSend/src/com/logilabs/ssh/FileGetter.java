@@ -1,11 +1,5 @@
 package com.logilabs.ssh;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
-import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
@@ -13,31 +7,17 @@ import com.jcraft.jsch.SftpException;
 
 public class FileGetter {
 
-	public String getFile(String filename, Host host)
+	public void getFile(String filename, String target, Host host)
 			throws SftpException {
-		String fileContent = "";
 		ChannelSftp channel = null;
 		try {
-			channel = openChannel(host.username, host.password, host.hostName, host.port);
-			InputStream stream = channel.get(filename);
-			try {
-				BufferedReader br = new BufferedReader(new InputStreamReader(stream));
-				String curr;
-				try {
-					while ((curr = br.readLine()) != null) {
-						fileContent += curr + "\n";
-					}
-				} catch (IOException e) {
-					System.out.println("An error occured reading content of file: " + filename + "from " + host);
-					e.printStackTrace();
-				}
-			} finally {
-				try {
-					stream.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
+			channel = openChannel(host);
+			channel.connect();
+			channel.get(filename, target);
+
+		} catch (JSchException e1) {
+			System.out.println("Failed to open channel to " + host.hostName);
+			e1.printStackTrace();
 		} finally {
 			try {
 				channel.disconnect();
@@ -46,14 +26,13 @@ public class FileGetter {
 				e.printStackTrace();
 			}
 		}
-		return fileContent;
 	}
 
-	private ChannelSftp openChannel(String username, String password, String host, int port) {
+	private ChannelSftp openChannel(Host host) {
 		sshConn ssh = new sshConn();
 		Session session;
 		try {
-			session = ssh.openConnection(new Host(host, port, username,password));
+			session = ssh.openConnection(host);
 			session.connect();
 		} catch (JSchException e) {
 			System.out.println("Failed to open a session to " + host);
