@@ -13,6 +13,8 @@ import com.logilabs.ssh.HostManager;
 public class Main {
 	
 	static ArrayList<String> hostnames;
+	
+	static HostManager hm = new HostManager();;
 
 	public static void main(String[] args) {
 		// String user = "root";//"3033519";
@@ -42,10 +44,18 @@ public class Main {
 				"rm -f TibcoEnvReporter-0.0.1.jar"};
 
 
-		HostManager hm = new HostManager();
-		hm.addHost(host, port, user, pwd);
+		addHosts(hostnames, user, pwd, port);
+		
+		hm.testHostConns();
+//		hm.executeCommandsAgainstHosts(commands);
+	}
 
-		hm.executeCommandsAgainstHosts(commands);
+	private static void addHosts(ArrayList<String> hostnames2, String user, String pwd, int port) {
+		
+		for(String s : hostnames2){
+			hm.addHost(s, port, user, pwd);
+		}
+		
 	}
 
 	private static void readHosts(String string) throws IOException {

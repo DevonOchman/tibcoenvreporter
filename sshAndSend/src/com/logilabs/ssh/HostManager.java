@@ -2,6 +2,8 @@ package com.logilabs.ssh;
 
 import java.util.ArrayList;
 
+import com.jcraft.jsch.JSchException;
+
 public class HostManager {
 	
 	private ArrayList<Host> hosts = new ArrayList<Host>();
@@ -22,6 +24,20 @@ public class HostManager {
 	}
 	public ArrayList<Host> getHosts(){
 		return hosts;
+	}
+
+	public void testHostConns() {
+		sshConn ssh = new sshConn();
+		for(Host h : hosts){
+			System.out.println("Testing connection to host: " + h.hostName + " for user " + h.username);
+			try {
+				ssh.openConnection(h);
+			} catch (JSchException e) {
+				System.out.println("An error occured connecting to host: " + h.hostName + " for user " + h.username);
+				e.printStackTrace();
+			}
+		}
+		
 	}
 }
 class Host {
