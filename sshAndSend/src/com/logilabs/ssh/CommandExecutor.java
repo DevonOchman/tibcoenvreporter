@@ -15,14 +15,16 @@ public class CommandExecutor {
 
 	private List<String> commands = new ArrayList<String>();
 
-	public void executeCommands(Host host) {
+	public void executeCommands(Host host) throws JSchException {
 		ChannelExec channel = null;
 
 		channel = openChannel(host);
+		
 		if (channel == null) {
 			System.out.println("An error occured trying to open channel to  " + host);
 			return;
 		}
+		channel.connect();
 		for (String command : commands) {
 			try {
 				executeCommand(command, channel);
