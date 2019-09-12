@@ -24,7 +24,6 @@ public class CommandExecutor {
 			System.out.println("An error occured trying to open channel to  " + host);
 			return;
 		}
-		channel.connect();
 		for (String command : commands) {
 			try {
 				executeCommand(command, channel);
