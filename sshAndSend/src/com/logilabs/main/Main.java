@@ -46,8 +46,8 @@ public class Main {
 
 		addHosts(hostnames, user, pwd, port);
 		
-		hm.testHostConns();
-//		hm.executeCommandsAgainstHosts(commands);
+//		hm.testHostConns();
+		hm.executeCommandsAgainstHosts(commands);
 	}
 
 	private static void addHosts(ArrayList<String> hostnames2, String user, String pwd, int port) {
