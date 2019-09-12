@@ -35,6 +35,7 @@ public class Main {
 		}
 
 		String[] commands = { 
+//				"rm -f /home/root/newfile.txt",
 				"pwd",
 				"ls",
 				"sudo su - tibco", 

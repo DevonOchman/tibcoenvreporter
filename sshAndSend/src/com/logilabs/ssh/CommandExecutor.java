@@ -17,16 +17,10 @@ public class CommandExecutor {
 
 	public void executeCommands(Host host) throws JSchException {
 		ChannelExec channel = null;
-
-		channel = openChannel(host);
-		
-		if (channel == null) {
-			System.out.println("An error occured trying to open channel to  " + host);
-			return;
-		}
 		
 		for (String command : commands) {
 			try {
+				channel = openChannel(host);
 				channel.connect();
 				executeCommand(command, channel);
 			} catch (Exception e) {
@@ -39,15 +33,39 @@ public class CommandExecutor {
 	}
 
 	private void executeCommand(String command, ChannelExec channel) throws IOException, JSchException {
+		StringBuilder output = new StringBuilder();
+		
+		System.out.println("Executing command: " + command);
+
 		channel.setCommand(command);
-		channel.setInputStream(null);
+		channel.setInputStream( (InputStream) null );
+		InputStreamReader stream = new InputStreamReader( channel.getInputStream() );
+		channel.setErrStream( System.err, true );
+		channel.connect();
+		 char[] buffer = new char[128];
+		 int read;
+		 while ( ( read = stream.read( buffer, 0, buffer.length ) ) >= 0 ) {
+		  output.append( buffer, 0, read );
+		 }
+		 stream.close();
+		 while ( !channel.isClosed() ) {
+		  try {
+		   Thread.sleep( 100L );
+		  } catch ( Exception exc ) {
+			  System.out.println( "Warning: Error session closing. " + exc.getMessage() );
+		  }
+		 }
+		 channel.disconnect();
+		 System.out.println("channel exit status: " + channel.getExitStatus()); 
+		 System.out.println(output);
+		/*
 		InputStream output = channel.getInputStream();
 		System.out.println("Executing command: " + command);
 		channel.connect();
 		
 //		String result = CharStreams.toString(new InputStreamReader(output));
 		channel.disconnect();
-//		System.out.println("Command result: " + result);
+//		System.out.println("Command result: " + result);*/
 	}
 
 	private ChannelExec openChannel(Host host) {
