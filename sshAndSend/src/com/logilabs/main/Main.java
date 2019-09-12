@@ -35,6 +35,8 @@ public class Main {
 		}
 
 		String[] commands = { 
+				"pwd",
+				"ls",
 				"sudo su - tibco", 
 				"pwd",
 				"ls",
