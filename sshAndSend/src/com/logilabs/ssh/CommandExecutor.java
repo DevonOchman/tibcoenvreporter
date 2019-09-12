@@ -44,9 +44,10 @@ public class CommandExecutor {
 		InputStream output = channel.getInputStream();
 		System.out.println("Executing command: " + command);
 		channel.connect();
-		String result = CharStreams.toString(new InputStreamReader(output));
+		
+//		String result = CharStreams.toString(new InputStreamReader(output));
 		channel.disconnect();
-		System.out.println("Command result: " + result);
+//		System.out.println("Command result: " + result);
 	}
 
 	private ChannelExec openChannel(Host host) {

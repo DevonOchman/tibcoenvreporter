@@ -17,10 +17,10 @@ public class Main {
 	static HostManager hm = new HostManager();;
 
 	public static void main(String[] args) {
-		// String user = "root";//"3033519";
-		// String pwd = "h1TQy27DeE";//"3FbGPk28s";
-		// String host = "192.168.43.147";//"lqc90990esbdvp01";
-		// int port = 22;//2022;
+//		 String user = "root";//"3033519";
+//		 String pwd = "h1TQy27DeE";//"3FbGPk28s";
+//		 String host = "192.168.43.147";//"lqc90990esbdvp01";
+//		 int port = 22;//2022;
 		String user = "3033519";
 		String pwd = "3FbGPk28s";
 		String host = "lqc90990esbdvp01";
@@ -47,7 +47,9 @@ public class Main {
 				"chown " + user + " /tmp/report.txt",
 				"rm -f TibcoEnvReporter-0.0.1.jar"};
 
-
+//		hostnames = new ArrayList<String>();
+//		hostnames.add(host);
+		
 		addHosts(hostnames, user, pwd, port);
 		
 //		hm.testHostConns();
