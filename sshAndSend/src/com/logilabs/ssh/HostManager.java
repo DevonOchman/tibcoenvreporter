@@ -25,9 +25,9 @@ public class HostManager {
 			fg= new FileGetter();
 			String fileContent = "";
 			try {
-				fileContent = fg.getFile("/home/tibco/report.txt", h);
+				fileContent = fg.getFile("/tmp/report.txt", h);
 			} catch (SftpException e) {
-				System.out.println("An error occured fetching contents of /home/tibco/report.txt from " + h.hostName);
+				System.out.println("An error occured fetching contents of /tmp/report.txt from " + h.hostName);
 				e.printStackTrace();
 			}
 			Writer w = new Writer("report_" + h.hostName + ".txt");
