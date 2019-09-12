@@ -20,10 +20,9 @@ public class HostManager {
 		for (Host h : hosts) {
 			System.out.println("Executing against " + h.hostName + " on port " + h.port);
 			cme.executeCommands(h);
-			System.out.println("Commmands excuted fetching /home/tibco/report.txt to report_" + h.hostName + ".txt");
+			System.out.println("Commmands excuted fetching /tmp/report.txt to report_" + h.hostName + ".txt");
 			FileGetter fg;
 			fg = new FileGetter();
-			String fileContent = "";
 			try {
 				fg.getFile("/tmp/report.txt", "reports/report_" + h.hostName + ".txt", h);
 			} catch (SftpException e) {

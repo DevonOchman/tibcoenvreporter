@@ -11,36 +11,28 @@ import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
 
-public class CommandExecutor{
+public class CommandExecutor {
 
 	private List<String> commands = new ArrayList<String>();
 
 	public void executeCommands(Host host) {
 		ChannelExec channel = null;
-		try {
-			channel = openChannel(host);
-			if (channel == null) {
-				System.out.println("An error occured trying to open channel to  " + host);
-				return;
-			}
-			for (String command : commands) {
-				try {
-					executeCommand(command, channel);
-				} catch (Exception e) {
-					System.out.println("An error occred trying to run the command " + command + " against " + host);
-					e.printStackTrace();
-					break;
-				}
-			}
-		} finally {
+
+		channel = openChannel(host);
+		if (channel == null) {
+			System.out.println("An error occured trying to open channel to  " + host);
+			return;
+		}
+		for (String command : commands) {
 			try {
-				channel.disconnect();
-				channel.getSession().disconnect();
-			} catch (JSchException e) {
-				// TODO Auto-generated catch block
+				executeCommand(command, channel);
+			} catch (Exception e) {
+				System.out.println("An error occred trying to run the command " + command + " against " + host);
 				e.printStackTrace();
+				break;
 			}
 		}
+
 	}
 
 	private void executeCommand(String command, ChannelExec channel) throws IOException, JSchException {
