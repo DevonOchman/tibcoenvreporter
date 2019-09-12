@@ -47,6 +47,7 @@ public class Main {
 		addHosts(hostnames, user, pwd, port);
 		
 //		hm.testHostConns();
+		System.out.println("please");
 		hm.executeCommandsAgainstHosts(commands);
 	}
 
