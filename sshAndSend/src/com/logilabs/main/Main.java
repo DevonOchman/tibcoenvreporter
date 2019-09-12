@@ -45,7 +45,7 @@ public class Main {
 				};
 
 //		hostnames = new ArrayList<String>();
-//		hostnames.add(host);
+//		hostnames.add(host);   
 		
 		addHosts(hostnames, user, pwd, port);
 		
