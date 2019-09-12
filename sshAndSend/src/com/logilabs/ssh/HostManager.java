@@ -15,7 +15,7 @@ public class HostManager {
 	public void executeCommandsAgainstHosts(String... commands) {
 		CommandExecutor cme;
 		cme = new CommandExecutor();
-
+		cme.addCommands(commands);
 		System.out.println("Begin executing commands: " + commands + " against " + hosts.size() + " hosts");
 		for (Host h : hosts) {
 			System.out.println("Executing against " + h.hostName + " on port " + h.port);
