@@ -1,9 +1,12 @@
 package com.logilabs.ssh;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
+import com.jcraft.jsch.SftpException;
+import com.logilabs.write.Writer;
 
 public class HostManager {
 	
@@ -17,6 +20,23 @@ public class HostManager {
 		for(Host h : hosts){
 			System.out.println("Executing against " + h.hostName + " on port " + h.port);
 			cme.executeCommands(h);
+			System.out.println("Commmands excuted fetching /home/tibco/report.txt to report_" + h.hostName + ".txt");
+			FileGetter fg;
+			fg= new FileGetter();
+			String fileContent = "";
+			try {
+				fileContent = fg.getFile("/home/tibco/report.txt", h);
+			} catch (SftpException e) {
+				System.out.println("An error occured fetching contents of /home/tibco/report.txt from " + h.hostName);
+				e.printStackTrace();
+			}
+			Writer w = new Writer("report_" + h.hostName + ".txt");
+			try {
+				w.append(fileContent);
+			} catch (IOException e) {
+				System.out.println("An error occured writing to file: " + w.getReportPath());
+				e.printStackTrace();
+			}
 		}
 	}
 	

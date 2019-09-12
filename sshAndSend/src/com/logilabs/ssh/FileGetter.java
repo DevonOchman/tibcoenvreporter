@@ -13,12 +13,12 @@ import com.jcraft.jsch.SftpException;
 
 public class FileGetter {
 
-	public String getFile(String filename, String username, String password, String host, int port)
+	public String getFile(String filename, Host host)
 			throws SftpException {
 		String fileContent = "";
 		ChannelSftp channel = null;
 		try {
-			channel = openChannel(username, password, host, port);
+			channel = openChannel(host.username, host.password, host.hostName, host.port);
 			InputStream stream = channel.get(filename);
 			try {
 				BufferedReader br = new BufferedReader(new InputStreamReader(stream));
