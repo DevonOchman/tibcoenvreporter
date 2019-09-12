@@ -53,7 +53,7 @@ public class FileGetter {
 		sshConn ssh = new sshConn();
 		Session session;
 		try {
-			session = ssh.openConnection(username, password, host, port);
+			session = ssh.openConnection(new Host(host, port, username,password));
 			session.connect();
 		} catch (JSchException e) {
 			System.out.println("Failed to open a session to " + host);

@@ -15,10 +15,10 @@ public class CommandExecutor{
 
 	private List<String> commands = new ArrayList<String>();
 
-	public void executeCommands(String username, String password, String host, int port) {
+	public void executeCommands(Host host) {
 		ChannelExec channel = null;
 		try {
-			channel = openChannel(username, password, host, port);
+			channel = openChannel(host);
 			if (channel == null) {
 				System.out.println("An error occured trying to open channel to  " + host);
 				return;
@@ -54,11 +54,11 @@ public class CommandExecutor{
 		System.out.println("Command result: " + result);
 	}
 
-	private ChannelExec openChannel(String username, String password, String host, int port) {
+	private ChannelExec openChannel(Host host) {
 		sshConn ssh = new sshConn();
 		Session session;
 		try {
-			session = ssh.openConnection(username, password, host, port);
+			session = ssh.openConnection(host);
 			session.connect();
 		} catch (JSchException e) {
 			System.out.println("Failed to open a session to " + host);

@@ -1,23 +1,62 @@
 package com.logilabs.main;
 
-import com.logilabs.ssh.CommandExecutor;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+import com.logilabs.ssh.HostManager;
 
 public class Main {
+	
+	static ArrayList<String> hostnames;
 
 	public static void main(String[] args) {
-//		String user = "root";//"3033519";
-//		String pwd = "h1TQy27DeE";//"3FbGPk28s";
-//		String host = "192.168.43.147";//"lqc90990esbdvp01";
-//		int port = 22;//2022;
+		// String user = "root";//"3033519";
+		// String pwd = "h1TQy27DeE";//"3FbGPk28s";
+		// String host = "192.168.43.147";//"lqc90990esbdvp01";
+		// int port = 22;//2022;
 		String user = "3033519";
 		String pwd = "3FbGPk28s";
 		String host = "lqc90990esbdvp01";
 		int port = 2022;
+		
+		try {
+			readHosts(args[0]);
+		} catch (IOException e) {
+			System.out.println("An error occured trying to read the conts of the file: " + args[0]);
+			e.printStackTrace();
+			System.exit(0);
+		}
 
-		CommandExecutor cme = new CommandExecutor();
-		cme.addCommands("ps");
-//		cme.addCommands("wget ftp://toolsadm/tibco/scripts/audit/TibcoEnvReporter*.jar");
-		cme.executeCommands(user, pwd, host, port);
+		String[] commands = { 
+				"sudo su - tibco", 
+				"wget ftp://toolsadm/tibco/scripts/audit/TibcoEnvReporter-0.0.1.jar",
+				"chmod +x TibcoEnvReporter-0.0.1.jar",
+				"java -jar TibcoEnvReporter-0.0.1.jar",
+				"echo y | mv report.txt /tmp/report.txt",
+				"chown " + user + " /tmp/report.txt",
+				"rm -f TibcoEnvReporter-0.0.1.jar"};
+
+
+		HostManager hm = new HostManager();
+		hm.addHost(host, port, user, pwd);
+
+		hm.executeCommandsAgainstHosts(commands);
+	}
+
+	private static void readHosts(String string) throws IOException {
+		hostnames = new ArrayList<String>();
+		BufferedReader br = new BufferedReader(new FileReader(string));
+		String curr;
+		
+		while ((curr = br.readLine()) != null) {
+				hostnames.add(curr);
+		}
+		
 	}
 
 }

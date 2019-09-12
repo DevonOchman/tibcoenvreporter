@@ -10,10 +10,10 @@ public class sshConn {
 
 	private JSch jsch = new JSch();
 	
-	public Session openConnection(String username, String password, String host, int port) throws JSchException{
+	public Session openConnection(Host host) throws JSchException{
 		JSch jsch = new JSch();
-		Session session = jsch.getSession(username, host, port);
-		session.setPassword(password);
+		Session session = jsch.getSession(host.username, host.hostName, host.port);
+		session.setPassword(host.password);
 		session.setConfig("StrictHostKeyChecking", "no");
 		return session;
 	}
