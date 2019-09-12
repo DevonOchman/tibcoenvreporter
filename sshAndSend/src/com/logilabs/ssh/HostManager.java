@@ -42,10 +42,13 @@ public class HostManager {
 			System.out.println("Session created. Connecting...");
 			try {
 				session.connect();
+				System.out.println("Session connected.");
 			} catch (JSchException e) {
 				System.out.println("An error occured connecting to host: " + h.hostName + " for user " + h.username);
 				e.printStackTrace();
 				continue;
+			}finally {
+				session.disconnect();
 			}
 		}
 		
