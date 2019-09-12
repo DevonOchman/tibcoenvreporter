@@ -3,6 +3,7 @@ package com.logilabs.ssh;
 import java.util.ArrayList;
 
 import com.jcraft.jsch.JSchException;
+import com.jcraft.jsch.Session;
 
 public class HostManager {
 	
@@ -30,11 +31,21 @@ public class HostManager {
 		sshConn ssh = new sshConn();
 		for(Host h : hosts){
 			System.out.println("Testing connection to host: " + h.hostName + " for user " + h.username);
+			Session session = null;
 			try {
-				ssh.openConnection(h);
+				session = ssh.openConnection(h);
 			} catch (JSchException e) {
 				System.out.println("An error occured connecting to host: " + h.hostName + " for user " + h.username);
 				e.printStackTrace();
+				continue;
+			}
+			System.out.println("Session created. Connecting...");
+			try {
+				session.connect();
+			} catch (JSchException e) {
+				System.out.println("An error occured connecting to host: " + h.hostName + " for user " + h.username);
+				e.printStackTrace();
+				continue;
 			}
 		}
 		
