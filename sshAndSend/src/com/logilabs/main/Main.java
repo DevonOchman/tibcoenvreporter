@@ -35,6 +35,7 @@ public class Main {
 		}
 
 		String[] commands = { 
+				"chmod 777 /tmp/TibcoEnvReporter.sh",
 				"sudo /bin/su - tibco -c /tmp/TibcoEnvReporter.sh", 
 				};
 

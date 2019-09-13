@@ -20,7 +20,17 @@ public class HostManager {
 			System.out.println("Sending tibco_install_report.sh to " + h.hostName);
 			FileGetter fg;
 			fg = new FileGetter();
-			fg.sendFile("TibcoEnvReporter.sh", "/tmp/TibcoEnvReporter.sh", h);
+			try {
+				fg.sendFile("TibcoEnvReporter.sh", "/tmp/TibcoEnvReporter.sh", h);
+			} catch (JSchException e2) {
+				System.out.println("An error occured sending TibcoEnvReporter.sh to /tmp/TibcoEnvReporter.sh");
+				e2.printStackTrace();
+				continue;
+			} catch (SftpException e2) {
+				System.out.println("An error occured sending TibcoEnvReporter.sh to /tmp/TibcoEnvReporter.sh");
+				e2.printStackTrace();
+				continue;
+			}
 			System.out.println("Executing against " + h.hostName + " on port " + h.port);
 			try {
 				cme.executeCommands(h);
@@ -36,6 +46,7 @@ public class HostManager {
 			} catch (SftpException e) {
 				System.out.println("An error occured fetching contents of /tmp/report.txt from " + h.hostName);
 				e.printStackTrace();
+				continue;
 			}
 
 		}

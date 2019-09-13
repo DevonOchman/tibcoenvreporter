@@ -1,5 +1,12 @@
 package com.logilabs.ssh;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
@@ -7,16 +14,14 @@ import com.jcraft.jsch.SftpException;
 
 public class FileGetter {
 
-	public void sendFile(String filename, String target, Host host) {
+	public void sendFile(String filename, String target, Host host) throws JSchException, SftpException {
 		System.out.println("Sending file " + filename);
 		ChannelSftp channel = null;
 		channel = openChannel(host);
-		try {
-			channel.put(filename, target);
-		} catch (SftpException e) {
-			System.out.println("An error occured sending " + filename + " to " + target + " on " + host.hostName);
-			e.printStackTrace();
-		}
+		channel.connect();
+
+		channel.put(filename, target);
+		
 		System.out.println("Sent " + filename + " to " + target + " on " + host.hostName);
 		channel.disconnect();
 		try {
