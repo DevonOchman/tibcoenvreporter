@@ -18,15 +18,15 @@ public class HostManager {
 		cme.addCommands(commands);
 		System.out.println("Begin executing commands: " + commands + " against " + hosts.size() + " hosts");
 		for (Host h : hosts) {
-			System.out.println("Executing against " + h.hostName + " on port " + h.port);
-			try {
-				cme.executeCommands(h);
-			} catch (JSchException e1) {
-				System.out.println("An error occured running commands againsts host: " + h.hostName);
-				e1.printStackTrace();
-				continue;
-			}
-			System.out.println("Commmands excuted. Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
+//			System.out.println("Executing against " + h.hostName + " on port " + h.port);
+//			try {
+//				cme.executeCommands(h);
+//			} catch (JSchException e1) {
+//				System.out.println("An error occured running commands againsts host: " + h.hostName);
+//				e1.printStackTrace();
+//				continue;
+//			}
+//			System.out.println("Commmands excuted. Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
 			FileGetter fg;
 			fg = new FileGetter();
 			try {
