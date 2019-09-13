@@ -35,16 +35,7 @@ public class Main {
 		}
 
 		String[] commands = { 
-//				"sudo su - tibco", 
-				"pwd",
-				"touch me.txt",
-				"pwd", 
-				"wget ftp://toolsadm/tibco/scripts/audit/TibcoEnvReporter-0.0.1.jar",
-//				"chmod +x TibcoEnvReporter-0.0.1.jar",
-//				"java -jar TibcoEnvReporter-0.0.1.jar",
-//				"echo y | mv report.txt /tmp/report.txt",
-//				"chown " + user + " /tmp/report.txt",
-//				"rm -f TibcoEnvReporter-0.0.1.jar"
+				"sudo /bin/su - tibco -c /tmp/TibcoEnvReporter.sh", 
 				};
 
 //		hostnames = new ArrayList<String>();

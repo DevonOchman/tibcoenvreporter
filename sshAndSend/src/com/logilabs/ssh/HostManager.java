@@ -1,12 +1,11 @@
 package com.logilabs.ssh;
 
-import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
 import com.jcraft.jsch.SftpException;
-import com.logilabs.write.Writer;
 
 public class HostManager {
 
@@ -16,19 +15,22 @@ public class HostManager {
 		CommandExecutor cme;
 		cme = new CommandExecutor();
 		cme.addCommands(commands);
-		System.out.println("Begin executing commands: " + commands + " against " + hosts.size() + " hosts");
+		System.out.println("Begin executing commands: " + Arrays.toString(commands) + " against " + hosts.size() + " hosts");
 		for (Host h : hosts) {
-//			System.out.println("Executing against " + h.hostName + " on port " + h.port);
-//			try {
-//				cme.executeCommands(h);
-//			} catch (JSchException e1) {
-//				System.out.println("An error occured running commands againsts host: " + h.hostName);
-//				e1.printStackTrace();
-//				continue;
-//			}
-//			System.out.println("Commmands excuted. Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
+			System.out.println("Sending tibco_install_report.sh to " + h.hostName);
 			FileGetter fg;
 			fg = new FileGetter();
+			fg.sendFile("TibcoEnvReporter.sh", "/tmp/TibcoEnvReporter.sh", h);
+			System.out.println("Executing against " + h.hostName + " on port " + h.port);
+			try {
+				cme.executeCommands(h);
+			} catch (JSchException e1) {
+				System.out.println("An error occured running commands againsts host: " + h.hostName);
+				e1.printStackTrace();
+				continue;
+			}
+			System.out.println("Commmands excuted. Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
+			
 			try {
 				fg.getFile("/tmp/report.txt", "reports/report_" + h.hostName + ".txt", h);
 			} catch (SftpException e) {

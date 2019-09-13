@@ -7,8 +7,26 @@ import com.jcraft.jsch.SftpException;
 
 public class FileGetter {
 
-	public void getFile(String filename, String target, Host host)
-			throws SftpException {
+	public void sendFile(String filename, String target, Host host) {
+		System.out.println("Sending file " + filename);
+		ChannelSftp channel = null;
+		channel = openChannel(host);
+		try {
+			channel.put(filename, target);
+		} catch (SftpException e) {
+			System.out.println("An error occured sending " + filename + " to " + target + " on " + host.hostName);
+			e.printStackTrace();
+		}
+		System.out.println("Sent " + filename + " to " + target + " on " + host.hostName);
+		channel.disconnect();
+		try {
+			channel.getSession().disconnect();
+		} catch (JSchException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void getFile(String filename, String target, Host host) throws SftpException {
 		ChannelSftp channel = null;
 		try {
 			channel = openChannel(host);
