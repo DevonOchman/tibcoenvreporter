@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -60,35 +61,24 @@ public class OSScanner {
 				e.printStackTrace();
 				File file = new File("/proc/cpuinfo");
 				System.out.println(file.exists());
-				FileInputStream fis = null;
+				BufferedReader br = null;
 				try {
-					fis = new FileInputStream(file);
-				} catch (FileNotFoundException e1) {
+					br = new BufferedReader(new FileReader("/proc/cpuinfo"));
+				} catch (FileNotFoundException e2) {
 					// TODO Auto-generated catch block
-					e1.printStackTrace();
+					e2.printStackTrace();
 				}
-				byte[] data = new byte[(int) file.length()];
+				String curr;
+				String r= "";
 				try {
-					fis.read(data);
+					while ((curr = br.readLine()) != null) {
+							r += curr + "\n";
+					}
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				try {
-					fis.close();
-				} catch (IOException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-
-				try {
-					String str = new String(data, "UTF-8");
-					System.out.println(str);
-					return str;
-				} catch (UnsupportedEncodingException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
+				return r;
 			}
 			
 		}
