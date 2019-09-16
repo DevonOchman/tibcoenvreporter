@@ -65,7 +65,7 @@ public class OSScanner {
 					br = new BufferedReader(new FileReader("/proc/cpuinfo"));
 					String curr;
 					String r = "";
-					int i = 1;
+					int i = 1;   
 					while ((curr = br.readLine()) != null && i < 18) {
 						r += curr + "\n";
 						System.out.println(i);
