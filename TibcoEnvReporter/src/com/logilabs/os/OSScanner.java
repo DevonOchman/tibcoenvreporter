@@ -52,7 +52,6 @@ public class OSScanner {
 				process = Runtime.getRuntime().exec(cmd);
 			} else {
 				process = Runtime.getRuntime().exec(command);
-				throw new IOException();
 			}
 		} catch (IOException e) {
 			
@@ -72,7 +71,6 @@ public class OSScanner {
 				String r= "";
 				try {
 					while ((curr = br.readLine()) != null) {
-						System.out.println(curr);
 							r += curr + "\n";
 					}
 				} catch (IOException e1) {
