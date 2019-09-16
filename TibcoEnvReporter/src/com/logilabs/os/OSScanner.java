@@ -59,7 +59,7 @@ public class OSScanner {
 				System.out.println("Failed lscpu, getting from /proc/cpuinfo");
 //				e.printStackTrace();
 				File file = new File("/proc/cpuinfo");
-				System.out.println(file.exists());
+//				System.out.println(file.exists());
 				BufferedReader br = null;
 				try {
 					br = new BufferedReader(new FileReader("/proc/cpuinfo"));
