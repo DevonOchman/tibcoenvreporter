@@ -41,12 +41,12 @@ public class HostManager {
 			}
 			System.out.println("Commmands excuted.");
 			System.out.println("waiting 20 seconds for script tp run.");
-			try {
-				Thread.sleep(20000);
-			} catch (InterruptedException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
+//			try {
+//				Thread.sleep(20000);
+//			} catch (InterruptedException e1) {
+//				// TODO Auto-generated catch block
+//				e1.printStackTrace();
+//			}
 			System.out.println("Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
 			
 			try {
