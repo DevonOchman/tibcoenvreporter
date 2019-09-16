@@ -1,8 +1,12 @@
 package com.logilabs.os;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -47,9 +51,44 @@ public class OSScanner {
 				process = Runtime.getRuntime().exec(cmd);
 			} else {
 				process = Runtime.getRuntime().exec(command);
+				throw new IOException();
 			}
 		} catch (IOException e) {
-			e.printStackTrace();
+			
+			if (OSValidator.isUnix()) {
+				System.out.println("Failed lscpu, getting from /proc/cpuinfo");
+				e.printStackTrace();
+				File file = new File("/proc/cpuinfo");
+				FileInputStream fis = null;
+				try {
+					fis = new FileInputStream(file);
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				byte[] data = new byte[(int) file.length()];
+				try {
+					fis.read(data);
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				try {
+					fis.close();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+
+				try {
+					String str = new String(data, "UTF-8");
+					return str;
+				} catch (UnsupportedEncodingException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+			
 		}
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
