@@ -17,7 +17,7 @@ public class HostManager {
 		cme.addCommands(commands);
 		System.out.println("Begin executing commands: " + Arrays.toString(commands) + " against " + hosts.size() + " hosts");
 		for (Host h : hosts) {
-			System.out.println("Sending tibco_install_report.sh to " + h.hostName);
+			System.out.println("Sending TibcoEnvReporter.sh to " + h.hostName);
 			FileGetter fg;
 			fg = new FileGetter();
 			try {
