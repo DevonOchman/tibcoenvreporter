@@ -37,8 +37,9 @@ public class FileGetter {
 		try {
 			channel = openChannel(host);
 			channel.connect();
+			System.out.println("Getting file " + filename);
 			channel.get(filename, target);
-
+			System.out.println("Done getting.");
 		} catch (JSchException e1) {
 			System.out.println("Failed to open channel to " + host.hostName);
 			e1.printStackTrace();
