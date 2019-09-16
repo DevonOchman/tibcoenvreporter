@@ -66,7 +66,7 @@ public class OSScanner {
 					String curr;
 					String r = "";
 					int i = 0;
-					while ((curr = br.readLine()) != null && i < 25) {
+					while ((curr = br.readLine()) != null && i < 18) {
 						r += curr + "\n";
 						System.out.println(i);
 						i++;
