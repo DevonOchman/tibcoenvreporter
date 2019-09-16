@@ -54,32 +54,35 @@ public class OSScanner {
 				process = Runtime.getRuntime().exec(command);
 			}
 		} catch (IOException e) {
-			
+
 			if (OSValidator.isUnix()) {
 				System.out.println("Failed lscpu, getting from /proc/cpuinfo");
-				e.printStackTrace();
+//				e.printStackTrace();
 				File file = new File("/proc/cpuinfo");
 				System.out.println(file.exists());
 				BufferedReader br = null;
 				try {
 					br = new BufferedReader(new FileReader("/proc/cpuinfo"));
+					String curr;
+					String r = "";
+					int i = 0;
+					while ((curr = br.readLine()) != null && i < 100) {
+						r += curr + "\n";
+						System.out.println(i);
+						i++;
+					}
+
+					return r;
 				} catch (FileNotFoundException e2) {
 					// TODO Auto-generated catch block
 					e2.printStackTrace();
-				}
-				String curr;
-				String r= "";
-				try {
-					while ((curr = br.readLine()) != null) {
-							r += curr + "\n";
-					}
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				return r;
+
 			}
-			
+
 		}
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
