@@ -59,6 +59,7 @@ public class OSScanner {
 				System.out.println("Failed lscpu, getting from /proc/cpuinfo");
 				e.printStackTrace();
 				File file = new File("/proc/cpuinfo");
+				System.out.println(file.exists());
 				FileInputStream fis = null;
 				try {
 					fis = new FileInputStream(file);
@@ -82,6 +83,7 @@ public class OSScanner {
 
 				try {
 					String str = new String(data, "UTF-8");
+					System.out.println(str);
 					return str;
 				} catch (UnsupportedEncodingException e1) {
 					// TODO Auto-generated catch block
