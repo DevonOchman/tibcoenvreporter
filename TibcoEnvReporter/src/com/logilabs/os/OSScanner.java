@@ -57,18 +57,17 @@ public class OSScanner {
 
 			if (OSValidator.isUnix()) {
 				System.out.println("Failed lscpu, getting from /proc/cpuinfo");
-//				e.printStackTrace();
+				e.printStackTrace();
 				File file = new File("/proc/cpuinfo");
-//				System.out.println(file.exists());
+				System.out.println(file.exists());
 				BufferedReader br = null;
 				try {
 					br = new BufferedReader(new FileReader("/proc/cpuinfo"));
 					String curr;
 					String r = "";
-					int i = 1;   
-					while ((curr = br.readLine()) != null && i < 18) {
+					int i = 0;
+					while ((curr = br.readLine()) != null && i < 20) {
 						r += curr + "\n";
-						System.out.println(i);
 						i++;
 					}
 

@@ -39,7 +39,15 @@ public class HostManager {
 				e1.printStackTrace();
 				continue;
 			}
-			System.out.println("Commmands excuted. Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
+			System.out.println("Commmands excuted.");
+			System.out.println("waiting 20 seconds for script tp run.");
+			try {
+				Thread.sleep(20000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			System.out.println("Fetching /tmp/report.txt to report_" + h.hostName + ".txt");
 			
 			try {
 				fg.getFile("/tmp/report.txt", "reports/report_" + h.hostName + ".txt", h);
