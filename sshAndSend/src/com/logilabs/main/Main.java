@@ -17,30 +17,30 @@ public class Main {
 	static HostManager hm = new HostManager();;
 
 	public static void main(String[] args) {
-//		 String user = "root";//"3033519";
-//		 String pwd = "h1TQy27DeE";//"3FbGPk28s";
-//		 String host = "192.168.43.147";//"lqc90990esbdvp01";
-//		 int port = 22;//2022;
-		String user = "3033519";
-		String pwd = "3FbGPk28s";
-		String host = "lqc90990esbdvp01";
-		int port = 2022;
-		
-		try {
-			readHosts(args[0]);
-		} catch (IOException e) {
-			System.out.println("An error occured trying to read the conts of the file: " + args[0]);
-			e.printStackTrace();
-			System.exit(0);
-		}
+		 String user = "root";//"3033519";
+		 String pwd = "h1TQy27DeE";//"3FbGPk28s";
+		 String host = "192.168.43.147";//"lqc90990esbdvp01";
+		 int port = 22;//2022;
+//		String user = "3033519";
+//		String pwd = "3FbGPk28s";
+//		String host = "lqc90990esbdvp01";
+//		int port = 2022;
+//		
+//		try {
+//			readHosts(args[0]);
+//		} catch (IOException e) {
+//			System.out.println("An error occured trying to read the conts of the file: " + args[0]);
+//			e.printStackTrace();
+//			System.exit(0);
+//		}
 
 		String[] commands = { 
 				"chmod 777 /tmp/TibcoEnvReporter.sh",
 				"sudo /bin/su - tibco -c /tmp/TibcoEnvReporter.sh", 
 				};
 
-//		hostnames = new ArrayList<String>();
-//		hostnames.add(host);   
+		hostnames = new ArrayList<String>();
+		hostnames.add(host);   
 		
 		addHosts(hostnames, user, pwd, port);
 		

@@ -19,7 +19,8 @@ public class FileGetter {
 		ChannelSftp channel = null;
 		channel = openChannel(host);
 		channel.connect();
-
+		File file = new File(filename);
+		System.out.println("Source file " + filename + " exists: " + file.exists());
 		channel.put(filename, target);
 		
 		System.out.println("Sent " + filename + " to " + target + " on " + host.hostName);
