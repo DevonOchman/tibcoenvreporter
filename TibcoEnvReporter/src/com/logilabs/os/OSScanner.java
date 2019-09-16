@@ -72,6 +72,7 @@ public class OSScanner {
 				String r= "";
 				try {
 					while ((curr = br.readLine()) != null) {
+						System.out.println(curr);
 							r += curr + "\n";
 					}
 				} catch (IOException e1) {
