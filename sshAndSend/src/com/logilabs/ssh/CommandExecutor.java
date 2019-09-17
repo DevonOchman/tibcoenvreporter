@@ -43,7 +43,7 @@ public class CommandExecutor {
 	}
 
 	private ChannelExec openChannel(Host host) {
-		sshConn ssh = new sshConn();
+		sshConn ssh = sshConn.getInstance();
 		Session session;
 		try {
 			session = ssh.openConnection(host);

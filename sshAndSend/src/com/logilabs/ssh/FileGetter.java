@@ -54,7 +54,7 @@ public class FileGetter {
 	}
 
 	private ChannelSftp openChannel(Host host) {
-		sshConn ssh = new sshConn();
+		sshConn ssh = sshConn.getInstance();
 		Session session;
 		try {
 			session = ssh.openConnection(host);

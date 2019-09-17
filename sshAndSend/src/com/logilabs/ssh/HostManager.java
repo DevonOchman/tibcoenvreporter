@@ -56,7 +56,7 @@ public class HostManager {
 				e.printStackTrace();
 				continue;
 			}
-
+			sshConn.getInstance().closeAll();
 		}
 	}
 
@@ -69,7 +69,7 @@ public class HostManager {
 	}
 
 	public void testHostConns() {
-		sshConn ssh = new sshConn();
+		sshConn ssh = sshConn.getInstance();
 		for (Host h : hosts) {
 			System.out.println("Creating session to host: " + h.hostName + " for user " + h.username);
 			Session session = null;
