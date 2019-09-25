@@ -9,8 +9,8 @@ import java.util.List;
 public class DirectoryCrawler {
 
 	private HashSet<String> targets = new HashSet<String>();
-	
-	private HashSet<String> omitRoots =  new HashSet<String>();
+
+	private HashSet<String> omitRoots = new HashSet<String>();
 
 	private int peekDepth = 2;
 
@@ -19,23 +19,29 @@ public class DirectoryCrawler {
 	public ArrayList<File> crawl() {
 		HashSet<File> files = new HashSet<File>();
 		File[] roots = File.listRoots();
-		for(int i =0; i< roots.length; i++){
-			File root = roots[i];
-			if(root == null){
-				continue;
-			}
-			for (File f : root.listFiles()) {
-				if(isToOmit(f.getName())){
-					continue;
-				}
-				files.addAll(crawlR(f, 0));
+		File root = null;
+		for (int i = 0; i < roots.length; i++) {
+			File t = roots[i];
+			if(t.toString().equalsIgnoreCase("C:\\")){
+				root = roots[i];
+				break;
 			}
 		}
-		
+		if (root == null) {
+			System.out.println("Failed to find root of file system. bya");
+			System.exit(0);
+		}
+		for (File f : root.listFiles()) {
+			if (isToOmit(f.getName())) {
+				continue;
+			}
+			files.addAll(crawlR(f, 0));
+		}
+
 		ArrayList<File> finalList = new ArrayList<File>(files.size());
 		finalList.addAll(files);
 		return finalList;
-	}        
+	}
 
 	private HashSet<? extends File> crawlR(File f, int depth) {
 		HashSet<File> files = new HashSet<File>();
@@ -84,15 +90,15 @@ public class DirectoryCrawler {
 		}
 		return false;
 	}
-	
-	private boolean isToOmit(String test){
-		if(test == null)
+
+	private boolean isToOmit(String test) {
+		if (test == null)
 			return false;
-		if(test.length() == 0)
+		if (test.length() == 0)
 			return false;
-		for(String s : omitRoots){
-			if(s.equalsIgnoreCase(test))
-				return true;	
+		for (String s : omitRoots) {
+			if (s.equalsIgnoreCase(test))
+				return true;
 		}
 		return false;
 	}
@@ -102,6 +108,7 @@ public class DirectoryCrawler {
 			targets.add(t);
 		}
 	}
+
 	public void addOmitRoots(String... target) {
 		for (String t : target) {
 			omitRoots.add(t);
@@ -122,8 +129,8 @@ public class DirectoryCrawler {
 
 	public HashSet<File> reduceFor(Collection<? extends File> files, String regex) {
 		HashSet<File> newFiles = new HashSet<File>();
-		for(File f : files){
-			if(f.toString().matches(regex))
+		for (File f : files) {
+			if (f.toString().matches(regex))
 				newFiles.add(f);
 		}
 		return newFiles;

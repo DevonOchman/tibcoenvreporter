@@ -213,10 +213,16 @@ audiodg.exe
 svchost.exe
 WUDFHost.exe
 eclipse.exe
+svchost.exe
+dllhost.exe
+SourceTree.exe
+pageant.exe
 SearchProtocolHost.exe
 svchost.exe
-SearchFilterHost.exe
+svchost.exe
+svchost.exe
 javaw.exe
+SearchFilterHost.exe
 tasklist.exe
 conhost.exe
 
@@ -914,6 +920,7 @@ C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\src
 C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\src\com
 C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\src\com\logilabs
 C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\TibcoEnvReporter-0.0.1.jar
 C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\archive-tmp
 C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes
 C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\.gitignore
@@ -1040,11 +1047,3 @@ C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\maven-status\maven-compil
 C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\test-classes
 C:\Windows\.TIBCOInstallerInstance
 C:\Windows\vpd.properties.tibco.LAPTOP-CJ4OQLLA
-D:\vm\CentOS7_TibcoBW6.ova
-F:\CentOS7_TibcoBW6.ova
-F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems
-F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\logs
-F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\logs\ems_queues_depth.log
-F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\logs\log4j.properties
-F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\queues
-F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\tibcoems.jar
