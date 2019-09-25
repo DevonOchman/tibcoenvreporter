@@ -1,0 +1,1050 @@
+OS Details: 
+Hostname:		LAPTOP-CJ4OQLLA
+IP:				LAPTOP-CJ4OQLLA/192.168.150.1
+Number of Cores:	4
+
+Tibco-like process list: 
+
+System Idle Process
+System
+Registry
+smss.exe
+csrss.exe
+wininit.exe
+csrss.exe
+services.exe
+lsass.exe
+svchost.exe
+svchost.exe
+fontdrvhost.exe
+WUDFHost.exe
+svchost.exe
+svchost.exe
+WUDFHost.exe
+winlogon.exe
+fontdrvhost.exe
+dwm.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+igfxCUIService.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+Memory Compression
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+vpnagent.exe
+svchost.exe
+svchost.exe
+wlanext.exe
+conhost.exe
+spoolsv.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+TNSLSNR.EXE
+svchost.exe
+ibtsiva.exe
+EvtEng.exe
+Corsair.Service.exe
+svchost.exe
+DolbyDAX2API.exe
+PanGPS.exe
+Lenovo.Modern.ImControlle
+RegSrvc.exe
+armsvc.exe
+svchost.exe
+NvNetworkService.exe
+vmnetdhcp.exe
+vmnat.exe
+NVDisplay.Container.exe
+MsMpEng.exe
+IntelCpHDCPSvc.exe
+SynTPEnhService.exe
+GfExperienceService.exe
+ZeroConfigService.exe
+OfficeClickToRun.exe
+svchost.exe
+dasHost.exe
+svchost.exe
+vmware-authd.exe
+IntelCpHeciSvc.exe
+vmware-usbarbitrator64.ex
+svchost.exe
+svchost.exe
+svchost.exe
+sihost.exe
+PresentationFontCache.exe
+svchost.exe
+unsecapp.exe
+nvxdsync.exe
+taskhostw.exe
+svchost.exe
+svchost.exe
+svchost.exe
+WmiPrvSE.exe
+svchost.exe
+ctfmon.exe
+svchost.exe
+igfxEM.exe
+explorer.exe
+svchost.exe
+Corsair.Service.CpuIdRemo
+conhost.exe
+ShellExperienceHost.exe
+SearchUI.exe
+RuntimeBroker.exe
+RuntimeBroker.exe
+SearchIndexer.exe
+Corsair.Service.DisplayAd
+conhost.exe
+WmiPrvSE.exe
+SynTPEnh.exe
+svchost.exe
+svchost.exe
+SynTPHelper.exe
+svchost.exe
+NisSrv.exe
+svchost.exe
+YourPhone.exe
+svchost.exe
+Video.UI.exe
+RuntimeBroker.exe
+RuntimeBroker.exe
+dllhost.exe
+RuntimeBroker.exe
+smartscreen.exe
+chrome.exe
+chrome.exe
+chrome.exe
+chrome.exe
+chrome.exe
+SecurityHealthSystray.exe
+SecurityHealthService.exe
+chrome.exe
+chrome.exe
+chrome.exe
+RAVCpl64.exe
+RAVBg64.exe
+RAVBg64.exe
+RAVBg64.exe
+DolbyDAX2TrayIcon.exe
+PanGPA.exe
+amqmtbrn.exe
+pc-client.exe
+amqmtbrn.exe
+iCUE.exe
+pwsafe.exe
+PDVD12Serv.exe
+chrome.exe
+chrome.exe
+chrome.exe
+chrome.exe
+chrome.exe
+HostAppServiceUpdater.exe
+IAStorIcon.exe
+ApplicationFrameHost.exe
+WinStore.App.exe
+RuntimeBroker.exe
+svchost.exe
+WindowsInternal.Composabl
+LSCNotify.exe
+svchost.exe
+Locator.exe
+GDCAgent.exe
+IAStorDataMgrSvc.exe
+jhi_service.exe
+LMS.exe
+SgrmBroker.exe
+svchost.exe
+svchost.exe
+RssControlZ0.exe
+svchost.exe
+Microsoft.Photos.exe
+svchost.exe
+Lenovo.Modern.ImControlle
+svchost.exe
+RuntimeBroker.exe
+isa.exe
+chrome.exe
+chrome.exe
+LockApp.exe
+RuntimeBroker.exe
+Lenovo.Modern.ImControlle
+SecureLinkCM.exe
+RssHookServerZ.exe
+RssHookZ.exe
+RssHookx64Z.exe
+mstsc.exe
+chrome.exe
+chrome.exe
+audiodg.exe
+svchost.exe
+WUDFHost.exe
+eclipse.exe
+SearchProtocolHost.exe
+svchost.exe
+SearchFilterHost.exe
+javaw.exe
+tasklist.exe
+conhost.exe
+
+Reduced directory list:
+
+Universal Installer History: 
+Name: 64bit JRE Oracle,		version: 1.8.0.144,		install date: 07-05-2018.094929
+Name: 64bit JRE Oracle,		version: 1.8.0.144,		install date: 07-05-2018.095248
+Name: EMS TEA Agent,		version: 1.2.0.000,		install date: 07-05-2018.095248
+Name: TEA Server,		version: 2.3.0.000,		install date: 07-05-2018.095248
+Name: TIBCO ActiveMatrix BusinessWorks 6.4.2,		version: 6.4.2,		install date: 07-05-2018.094929
+Name: TIBCO ActiveMatrix BusinessWorks 6.4.2,		version: 6.4.2,		install date: 07-05-2018.095248
+Name: TIBCO EMS 8.4.0,		version: 8.4.0.000,		install date: 07-05-2018.094038
+Name: TIBCO EMS 8.4.0,		version: 8.4.0.000,		install date: 07-05-2018.094929
+Name: TIBCO EMS 8.4.0,		version: 8.4.0.000,		install date: 07-05-2018.095248
+Name: TIBCO Enterprise Administrator 2.3.0,		version: 2.3.0.000,		install date: 07-05-2018.095248
+Name: TIBCO Wrapper,		version: 2.4.4.003,		install date: 07-05-2018.095248
+Name: TIBCO Wrapper,		version: 2.4.5.001,		install date: 07-05-2018.094929
+Name: TIBCO Wrapper,		version: 2.4.5.001,		install date: 07-05-2018.095248
+Name: TSS TEA Agent,		version: 1.1.0.000,		install date: 07-05-2018.095248
+Name: bstudio,		version: 4.0.0,		install date: 07-05-2018.094929
+Name: bstudio,		version: 4.0.0,		install date: 07-05-2018.095248
+Name: bw-base,		version: 1.4.2.000,		install date: 07-05-2018.094929
+Name: bw-base,		version: 1.4.2.000,		install date: 07-05-2018.095248
+Name: bw-enterprise,		version: 6.4.2.000,		install date: 07-05-2018.094929
+Name: bw-enterprise,		version: 6.4.2.000,		install date: 07-05-2018.095248
+Name: hawk-adminagent,		version: 6.0.0,		install date: 07-05-2018.095248
+
+
+TIBCO Directory List: 
+
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\HelloWorld-Service
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\HelloWorld-Service\data_3.2.x
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\HelloWorld-Service\data_3.2.x\nodes
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\HelloWorld-Service\host
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\HelloWorld-Service\host\bin
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\helloworld1_configuration
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\helloworld1_configuration\data_3.2.x
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\helloworld1_configuration\data_3.2.x\nodes
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\myWorld_configuration
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\myWorld_configuration\data_3.2.x
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\myWorld_configuration\data_3.2.x\nodes
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\phonebook_configuration
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\phonebook_configuration\data_3.2.x
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\phonebook_configuration\data_3.2.x\nodes
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\webapp_configuration
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\webapp_configuration\data_3.2.x
+C:\$Recycle.Bin\S-1-5-21-2667253327-3902251556-4278617299-1001\$RHHKBFV\.metadata\.plugins\com.tibco.amf.tools.composite.launch\tibcohost\webapp_configuration\data_3.2.x\nodes
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1\_vpddb
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1\_vpddb\_envInfo.xml
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1\_vpddb\vpd.properties
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1\_vpddb\vpd.script
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1\engine
+C:\Program Files (x86)\Common Files\InstallShield\Universal\TIBCO\Gen1\engine\1.0
+C:\Program Files\Common Files\InstallShield\Universal\TIBCO
+C:\Program Files\Common Files\InstallShield\Universal\TIBCO\Gen1
+C:\Program Files\Common Files\InstallShield\Universal\TIBCO\Gen1\_vpddb
+C:\Program Files\Common Files\InstallShield\Universal\TIBCO\Gen1\_vpddb\_envInfo.xml
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchSize.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchTime.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\connectionFactoryName.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\initialContextFactory.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jarsURL.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsAsyncExceptionHandling.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsProviderXASupport.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiBindingsLocation.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiEnvironmentParms.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\nativeLibs.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr1.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr2.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr3.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr4.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr5.dat
+C:\ProgramData\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIHandler.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchSize.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchTime.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\connectionFactoryName.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\initialContextFactory.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jarsURL.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsAsyncExceptionHandling.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsProviderXASupport.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiBindingsLocation.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiEnvironmentParms.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\nativeLibs.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr1.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr2.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr3.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr4.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr5.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIHandler.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchSize.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchTime.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\connectionFactoryName.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\initialContextFactory.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jarsURL.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsAsyncExceptionHandling.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsProviderXASupport.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiBindingsLocation.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiEnvironmentParms.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\nativeLibs.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr1.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr2.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr3.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr4.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr5.dat
+C:\ProgramData\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIHandler.dat
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TIBCO
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TIBCO\${tibco.environment.name}
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TIBCO\TIBCO EMS 8.4
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TIBCO\TIBCO EMS 8.4\Start EMS Administration Tool.lnk
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TIBCO\TIBCO EMS 8.4\Start EMS Server.lnk
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TIBCO\Uninstall.lnk
+C:\ProgramData\TIBCO_HOME
+C:\ProgramData\TIBCO_HOME\tibco
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\ems
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\ems-agent
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\ems-agent\conf
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\ems\data
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\autoconfig
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\bin
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\cache
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\config
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\data
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\logs
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\plugin
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\resource
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\hawk\security
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tea
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tea\conf
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tea\data
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tea\logs
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tss
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tss\conf
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tss\data
+C:\ProgramData\TIBCO_HOME\tibco\cfgmgmt\tss\logs
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchSize.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchTime.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\connectionFactoryName.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\initialContextFactory.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jarsURL.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsAsyncExceptionHandling.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsProviderXASupport.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiBindingsLocation.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiEnvironmentParms.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\nativeLibs.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr1.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr2.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr3.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr4.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr5.dat
+C:\Users\All Users\IBM\MQSI\registry\IIB9_NODE\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIHandler.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchSize.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchTime.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\connectionFactoryName.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\initialContextFactory.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jarsURL.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsAsyncExceptionHandling.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsProviderXASupport.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiBindingsLocation.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiEnvironmentParms.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\nativeLibs.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr1.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr2.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr3.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr4.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr5.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_DevonOchman\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIHandler.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchSize.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\clientAckBatchTime.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\connectionFactoryName.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\initialContextFactory.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jarsURL.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsAsyncExceptionHandling.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jmsProviderXASupport.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiBindingsLocation.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\jndiEnvironmentParms.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\nativeLibs.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr1.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr2.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr3.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr4.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIAttr5.dat
+C:\Users\All Users\IBM\MQSI\registry\TESTNODE_LAPTOP-CJ4OQLLA$\CurrentVersion\ExternalResources\JMSProviders\IbmDefined\Tibco_EMS\proprietaryAPIHandler.dat
+C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\TIBCO
+C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\TIBCO\${tibco.environment.name}
+C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\TIBCO\TIBCO EMS 8.4
+C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\TIBCO\TIBCO EMS 8.4\Start EMS Administration Tool.lnk
+C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\TIBCO\TIBCO EMS 8.4\Start EMS Server.lnk
+C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\TIBCO\Uninstall.lnk
+C:\Users\All Users\TIBCO_HOME
+C:\Users\All Users\TIBCO_HOME\tibco
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\ems
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\ems-agent
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\ems-agent\conf
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\ems\data
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\autoconfig
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\bin
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\cache
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\config
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\data
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\logs
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\plugin
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\resource
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\hawk\security
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tea
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tea\conf
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tea\data
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tea\logs
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tss
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tss\conf
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tss\data
+C:\Users\All Users\TIBCO_HOME\tibco\cfgmgmt\tss\logs
+C:\Users\DevonOchman\.TIBCO
+C:\Users\DevonOchman\.TIBCOEnvInfo
+C:\Users\DevonOchman\.TIBCOEnvInfo\_envInfo.xml
+C:\Users\DevonOchman\.TIBCOEnvInfo\_uuidInfo.xml
+C:\Users\DevonOchman\.TIBCO\UniversalInstallerHistory.xml
+C:\Users\DevonOchman\.TIBCO\UniversalInstallerHistory_old.xml
+C:\Users\DevonOchman\.TIBCO\UniversalInstallerHistory_zee.xml
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\antTask_log_pre-assembly-ref-ems_runtime_2019-04-15.111907.log
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\antTask_log_pre-assembly-ref-ems_runtime_cfgcmgmt_common_2019-04-15.111905.log
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\antTask_log_pre-assembly-ref-ems_runtime_cfgcmgmt_jaas_2019-04-15.111906.log
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\antTask_log_sync-machine-model_2019-04-15.111903.log
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\productinfo
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\productinfo\tibco_productinfo_afterinstall.txt
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\productinfo\tibco_productinfo_beforeinstall.txt
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\tibco_universal_installer.DevonOchman_install.log
+C:\Users\DevonOchman\.TIBCO\install_2019-04-15.111727\universalInstallerInfo.zip
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1-SNAPSHOT
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1-SNAPSHOT\TibcoEnvReporter-0.0.1-SNAPSHOT.jar
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1-SNAPSHOT\TibcoEnvReporter-0.0.1-SNAPSHOT.pom
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1-SNAPSHOT\_remote.repositories
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1-SNAPSHOT\maven-metadata-local.xml
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1\TibcoEnvReporter-0.0.1-jar-with-dependencies.jar
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1\TibcoEnvReporter-0.0.1.jar
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1\TibcoEnvReporter-0.0.1.pom
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\0.0.1\_remote.repositories
+C:\Users\DevonOchman\.m2\repository\TibcoEnvReporter\TibcoEnvReporter\maven-metadata-local.xml
+C:\Users\DevonOchman\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_community.tibco.com_0.indexeddb.leveldb
+C:\Users\DevonOchman\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_community.tibco.com_0.indexeddb.leveldb\000003.log
+C:\Users\DevonOchman\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_community.tibco.com_0.indexeddb.leveldb\CURRENT
+C:\Users\DevonOchman\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_community.tibco.com_0.indexeddb.leveldb\LOCK
+C:\Users\DevonOchman\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_community.tibco.com_0.indexeddb.leveldb\LOG
+C:\Users\DevonOchman\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_community.tibco.com_0.indexeddb.leveldb\MANIFEST-000001
+C:\Users\DevonOchman\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\AppIconCache\100\C__tibco_ems_8_4_bin_tibemsadmin_exe
+C:\Users\DevonOchman\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\AppIconCache\100\C__tibco_tools_universal_installer_TIBCOUniversalInstaller-x86-64_exe
+C:\Users\DevonOchman\AppData\Local\Solid State Networks\Download Manager Interface\tibco.settings
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Office\Recent\Tibco non prod.xlsx.LNK
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\.TIBCO.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\CentOS7_TibcoBW6.ova.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\TIBCO (2).lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\TIBCO (3).lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\TIBCO (5).lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\TIBCO_HOME.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\Tibco non prod.xlsx.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\Tibco.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\TibcoEnvReporter.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\TibcoEnvReporter.zip.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\tibco.zip.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\tibco_install_report.sh.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\tibco_productinfo_afterinstall.txt.lnk
+C:\Users\DevonOchman\AppData\Roaming\Microsoft\Windows\Recent\tibco_productinfo_beforeinstall.txt.lnk
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\.metadata-v2
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\cache
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\cache\.padding
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\cache\caches.sqlite
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\cache\morgue
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\cache\morgue\145
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\idb
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\idb\15552765833ypcmi-lsowp-.files
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++community.tibco.com\idb\15552765833ypcmi-lsowp-.sqlite
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\.metadata-v2
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\2245713381CeogmaproonteSnfteD.files
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\2245713381CeogmaproonteSnfteD.sqlite
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\2579792496aechtciaoCnrseMgaan.files
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\2579792496aechtciaoCnrseMgaan.sqlite
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\3204990976r0e.c6o4rPdVG.files
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\3204990976r0e.c6o4rPdVG.sqlite
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\3338319426ascntoi.files
+C:\Users\DevonOchman\AppData\Roaming\Mozilla\Firefox\Profiles\nc0ovpqq.default-release\storage\default\https+++support.tibco.com\idb\3338319426ascntoi.sqlite
+C:\Users\DevonOchman\Desktop\tibcoenvrepotrer
+C:\Users\DevonOchman\Desktop\tibcoenvrepotrer.zip
+C:\Users\DevonOchman\Desktop\tibcoenvrepotrer\TibcoEnvReporter
+C:\Users\DevonOchman\Documents\Splunk\tibcoems
+C:\Users\DevonOchman\Documents\Splunk\tibcoems\logs
+C:\Users\DevonOchman\Documents\Splunk\tibcoems\logs\ems_queues_depth.log
+C:\Users\DevonOchman\Documents\Splunk\tibcoems\logs\log4j.properties
+C:\Users\DevonOchman\Documents\Splunk\tibcoems\queues
+C:\Users\DevonOchman\Documents\Splunk\tibcoems\tibcoems.jar
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\CentOS7_TibcoBW6-c7a3f6d5.vmem
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\CentOS7_TibcoBW6-c7a3f6d5.vmss
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\CentOS7_TibcoBW6-disk1.vmdk
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\CentOS7_TibcoBW6.vmsd
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\CentOS7_TibcoBW6.vmx
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\CentOS7_TibcoBW6.vmxf
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\nvram
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\vmware-0.log
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\vmware-1.log
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\vmware-2.log
+C:\Users\DevonOchman\Documents\Virtual Machines\CentOS7_TibcoBW6\vmware.log
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)\1.3.0
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)\1.3.0\TIB_adadbbs_1.3.0.md5
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)\1.3.0\TIB_adadbbs_1.3.0_readme.txt
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)\1.3.0\TIB_adadbbs_1.3.0_relnotes.pdf
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)\1.3.0\TIB_adadbbs_1.3.0_win_x86_64.zip
+C:\Users\DevonOchman\Downloads\AMX Adapter for Database (TIBCO Business Studio)\1.3.0\TIB_adadbbs_1.3_installation.pdf
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-APS-1
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-APS-1\TIB_dbsf_7.2.0_readme.txt
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-APS-2
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-APS-2\TIB_SilverFabric_rv_8.4.6_0_win_x86_64_vc10_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-APS-2\TIB_SilverFabric_rv_8.4.6_0_win_x86_vc10_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-APS-2\TIB_dbsf_7.2.0.md5
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-RREL-1
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-RREL-1\Important_Information 110617.txt
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-RREL-1\TIB_SilverFabric_tra_5.10.1_0_win_x86_64_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-RREL-1\TIB_SilverFabric_tra_5.10.1_0_win_x86_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0-RREL-1\TIB_dbsf_7.2.0_documents.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_adadb_7.2.0_0_win_x86_64_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_adadb_7.2.0_0_win_x86_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_hawk_5.2.0_0_win_x86_64_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_hawk_5.2.0_0_win_x86_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_rv_8.4.4_0_win_x86_64_vc10_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_rv_8.4.4_0_win_x86_vc10_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_tra_5.10.0_1_win_x86_64_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Adapter for Database Distribution for TIBCO Silver Fabric\7.2.0\TIB_SilverFabric_tra_5.10.0_1_win_x86_distribution_gridlib.zip
+C:\Users\DevonOchman\Downloads\Administrator - Enterprise Edition\5.11.0\TIB_TIBCOAdmin_5.11.0.md5
+C:\Users\DevonOchman\Downloads\Administrator - Enterprise Edition\5.11.0\TIB_TIBCOAdmin_5.11.0_installation.pdf
+C:\Users\DevonOchman\Downloads\Administrator - Enterprise Edition\5.11.0\TIB_TIBCOAdmin_5.11.0_readme.txt
+C:\Users\DevonOchman\Downloads\Administrator - Enterprise Edition\5.11.0\TIB_TIBCOAdmin_5.11.0_relnotes.pdf
+C:\Users\DevonOchman\Downloads\Administrator - Enterprise Edition\5.11.0\TIB_TIBCOAdmin_5.11.0_win_x86.zip
+C:\Users\DevonOchman\Downloads\Administrator - Enterprise Edition\5.11.0\TIB_TIBCOAdmin_5.11.0_win_x86_64.zip
+C:\Users\DevonOchman\Downloads\Downloader - TIBCO ActiveMatrix BusinessWorks Plug-in for Database.exe
+C:\Users\DevonOchman\Downloads\TIBCO_HOME.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\TIBCOUniversalInstaller-ems.silent
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\TIBCOUniversalInstaller-x86-64.exe
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\TIBCOUniversalInstaller.cmd
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\assembly_tibco_com_tibco_jms_jmsclient_feature_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\assembly_tibco_com_tibco_tpcl_javax_jms_feature_2.0.0.002.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_a_dotnetframework461_64_1.0.0.001.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_a_vcredistx64_2.2.1.001.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_a_vcredistx64_2015_1.0.0.004.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_ca_runtime_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_ca_runtime_common_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_ca_samples_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_client_runtime_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_common_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_converter_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_development_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_development_common_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_dotnet_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_runtime_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_runtime_cfgcmgmt_common_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_runtime_common_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_samples_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_samples_common_8.4.0.014.zip
+C:\Users\DevonOchman\Downloads\TIB_ems_8.4.0_win_x86_64_vc14\assemblies\product_tibco_ems_thirdparty_runtime_8.4.0.014_win_x86_64_vc14.zip
+C:\Users\DevonOchman\Downloads\Tibco non prod.xlsx
+C:\Users\DevonOchman\Downloads\tibco
+C:\Users\DevonOchman\Downloads\tibco.zip
+C:\Users\DevonOchman\Downloads\tibco\tibco
+C:\Users\DevonOchman\Downloads\tibco\tibco\.seed.bin
+C:\Users\DevonOchman\Downloads\tibco\tibco\adapter
+C:\Users\DevonOchman\Downloads\tibco\tibco\adapter\adadb
+C:\Users\DevonOchman\Downloads\tibco\tibco\adapter\adadb\7.2
+C:\Users\DevonOchman\eclipseworkspace\.metadata\.plugins\org.eclipse.debug.core\.launches\TIBCOEMSApplication (1).launch
+C:\Users\DevonOchman\eclipseworkspace\.metadata\.plugins\org.eclipse.debug.core\.launches\TIBCOEMSApplication.launch
+C:\Users\DevonOchman\eclipseworkspace\EMSMonitor\bin\main\java\application\TIBCOEMSApplication.class
+C:\Users\DevonOchman\eclipseworkspace\EMSMonitor\src\main\java\application\TIBCOEMSApplication.java
+C:\Users\DevonOchman\git\TibcoEnvReporter
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\COMMIT_EDITMSG
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\FETCH_HEAD
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\HEAD
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\ORIG_HEAD
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\config
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\description
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\applypatch-msg.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\commit-msg.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\fsmonitor-watchman.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\post-update.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\pre-applypatch.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\pre-commit.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\pre-push.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\pre-rebase.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\pre-receive.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\prepare-commit-msg.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\hooks\update.sample
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\index
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\info
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\info\exclude
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\logs
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\logs\HEAD
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\logs\refs
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\00
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\01
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\02
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\03
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\04
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\05
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\06
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\07
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\08
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\09
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\0a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\0b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\0c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\0d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\0e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\0f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\10
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\11
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\12
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\13
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\14
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\15
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\16
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\17
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\18
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\19
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\1a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\1b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\1c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\1d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\1e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\1f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\20
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\21
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\22
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\23
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\24
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\25
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\26
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\27
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\28
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\29
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\2a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\2b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\2c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\2d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\2e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\2f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\30
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\31
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\32
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\33
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\34
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\35
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\36
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\37
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\38
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\39
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\3a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\3b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\3c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\3d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\3e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\3f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\40
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\41
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\42
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\43
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\44
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\45
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\46
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\47
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\48
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\49
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\4a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\4b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\4c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\4d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\4e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\4f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\50
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\51
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\52
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\53
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\54
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\55
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\56
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\57
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\58
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\59
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\5a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\5b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\5c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\5d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\5e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\5f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\60
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\61
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\62
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\63
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\64
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\65
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\66
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\67
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\68
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\69
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\6a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\6b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\6c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\6d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\6e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\6f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\70
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\71
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\72
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\73
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\74
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\75
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\76
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\77
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\78
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\79
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\7a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\7b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\7c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\7d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\7e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\7f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\80
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\81
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\82
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\83
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\84
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\85
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\86
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\87
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\88
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\89
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\8a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\8b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\8c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\8d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\8e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\8f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\90
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\91
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\92
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\93
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\94
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\95
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\96
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\97
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\98
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\99
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\9a
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\9b
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\9c
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\9d
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\9e
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\9f
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a0
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a1
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a2
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a3
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a4
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a5
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a6
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a7
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a8
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\a9
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\aa
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ab
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ac
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ad
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ae
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\af
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b0
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b1
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b2
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b3
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b4
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b5
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b6
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b7
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b8
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\b9
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ba
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\bb
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\bc
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\bd
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\be
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\bf
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c0
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c1
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c2
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c3
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c4
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c5
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c6
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c7
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c8
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\c9
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ca
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\cb
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\cc
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\cd
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ce
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\cf
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d0
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d1
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d2
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d3
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d4
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d5
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d6
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d7
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d8
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\d9
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\da
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\db
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\dc
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\dd
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\de
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\df
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e0
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e1
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e2
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e3
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e5
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e6
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e7
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e8
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\e9
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ea
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\eb
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ec
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ed
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ee
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ef
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f0
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f1
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f2
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f3
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f4
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f5
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f6
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f7
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f8
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\f9
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\fa
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\fb
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\fc
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\fd
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\fe
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\ff
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\info
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\objects\pack
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\refs
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\refs\heads
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\refs\remotes
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\refs\tags
+C:\Users\DevonOchman\git\TibcoEnvReporter\.git\sourcetreeconfig.json
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\.classpath
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\.project
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\.settings
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\.settings\org.eclipse.jdt.core.prefs
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\.settings\org.eclipse.m2e.core.prefs
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\bin
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\install_history.xsd
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\pom.xml
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\read.txt
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\report.txt
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\src
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\src\com
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\src\com\logilabs
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\archive-tmp
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\.gitignore
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\META-INF
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter\TibcoEnvReporter
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter\TibcoEnvReporter\pom.properties
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter\TibcoEnvReporter\pom.xml
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\classes\com
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\generated-sources
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\generated-sources\annotations
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\maven-archiver
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\maven-archiver\pom.properties
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\maven-status
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\maven-status\maven-compiler-plugin
+C:\Users\DevonOchman\git\TibcoEnvReporter\TibcoEnvReporter\target\test-classes
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\.classpath
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\.gitignore
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\.project
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\.settings
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\.settings\org.eclipse.jdt.core.prefs
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\.settings\org.eclipse.m2e.core.prefs
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\TibcoEnvReporter.sh
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\bin
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\commands.txt
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\log.txt
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\pom.xml
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\src
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\src\com
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target\archive-tmp
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target\classes
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target\maven-archiver
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target\maven-status
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target\sshAndSend-0.0.1-jar-with-dependencies.jar
+C:\Users\DevonOchman\git\TibcoEnvReporter\sshAndSend\target\sshAndSend-0.0.1.jar
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes\6f
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes\6f\history.index
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes\e4
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes\e4\81
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes\history.index
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.indexes\properties.index
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.location
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.markers
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.markers.snap
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\.syncinfo.snap
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\org.eclipse.egit.core
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\org.eclipse.egit.core\GitProjectData.properties
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\org.eclipse.jdt.apt.core
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\TibcoEnvReporter\org.eclipse.jdt.core
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\TibcoEnvReporter (1).launch
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\TibcoEnvReporter (2).launch
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.debug.core\.launches\TibcoEnvReporter.launch
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\8
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\8\33
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\8\34
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\9
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\9\37
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\9\38
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.ltk.core.refactoring\.refactorings\TibcoEnvReporter\2019\9\39
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.m2e.jdt\TibcoEnvReporter.container
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_10.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.fdt
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.fdx
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.fnm
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.frq
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.nrm
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.prx
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.tii
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_11.tis
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.fdt
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.fdx
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.fnm
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.frq
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.nrm
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.prx
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.tii
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_t.tis
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_u.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_v.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_w.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_x.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_y.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\_z.cfs
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\segments.gen
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\segments_11
+C:\Users\DevonOchman\workspace\.metadata\.plugins\org.eclipse.recommenders.types.rcp\indexes\TibcoEnvReporter\write.lock
+C:\Users\DevonOchman\workspace\TibcoEnvReporter
+C:\Users\DevonOchman\workspace\TibcoEnvReporter.zip
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\.classpath
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\.project
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\.settings
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\.settings\org.eclipse.jdt.core.prefs
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\.settings\org.eclipse.m2e.core.prefs
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\bin
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\install_history.xsd
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\pom.xml
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\read.txt
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\report.txt
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\src
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\src\com
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\src\com\logilabs
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\TibcoEnvReporter-0.0.1.jar
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes\META-INF
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter\TibcoEnvReporter
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter\TibcoEnvReporter\pom.properties
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes\META-INF\maven\TibcoEnvReporter\TibcoEnvReporter\pom.xml
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\classes\com
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\generated-sources
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\generated-sources\annotations
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\maven-archiver
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\maven-archiver\pom.properties
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\maven-status
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\maven-status\maven-compiler-plugin
+C:\Users\DevonOchman\workspace\TibcoEnvReporter\target\test-classes
+C:\Windows\.TIBCOInstallerInstance
+C:\Windows\vpd.properties.tibco.LAPTOP-CJ4OQLLA
+D:\vm\CentOS7_TibcoBW6.ova
+F:\CentOS7_TibcoBW6.ova
+F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems
+F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\logs
+F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\logs\ems_queues_depth.log
+F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\logs\log4j.properties
+F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\queues
+F:\Toolkit\Backup\LAPTOP-CJ4OQLLA\c\Users\DevonOchman\Documents\Splunk\tibcoems\tibcoems.jar

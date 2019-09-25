@@ -19,12 +19,19 @@ public class DirectoryCrawler {
 	public ArrayList<File> crawl() {
 		HashSet<File> files = new HashSet<File>();
 		File[] roots = File.listRoots();
-		for (File f : roots[0].listFiles()) {
-			if(isToOmit(f.getName())){
+		for(int i =0; i< roots.length; i++){
+			File root = roots[i];
+			if(root == null){
 				continue;
 			}
-			files.addAll(crawlR(f, 0));
+			for (File f : root.listFiles()) {
+				if(isToOmit(f.getName())){
+					continue;
+				}
+				files.addAll(crawlR(f, 0));
+			}
 		}
+		
 		ArrayList<File> finalList = new ArrayList<File>(files.size());
 		finalList.addAll(files);
 		return finalList;
